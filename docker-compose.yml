@@ -20,9 +20,15 @@ services:
       ONLINE_MODE: "false"
       ENABLE_RCON: "true"
       RCON_PASSWORD: "password"
-      DIFFICULTY: "normal"
+      DIFFICULTY: "hard"
       GAMEMODE: "survival"
-      MAX_PLAYERS: "10"
+      MAX_PLAYERS: "8"
+      VIEW_DISTANCE: "8"
+      SIMULATION_DISTANCE: "4"
+      JVM_XX_OPTS: "-XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1"
+      JVM_OPTS: "-Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true"
+      SPAWN_PROTECTION: "0"
+      NETWORK_COMPRESSION_THRESHOLD: "256"
     restart: unless-stopped
     volumes:
       - ./data:/data
