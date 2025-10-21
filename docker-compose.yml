@@ -1,0 +1,28 @@
+services:
+  minecraft:
+    container_name: itzgMinecraftServer
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    user: root
+    ports:
+      - "25565:25565/tcp"
+      - "25565:25565/udp"
+      - "25575:25575/tcp"
+    environment:
+      TYPE: "FABRIC"
+      VERSION: "1.21.10"
+      MODE: "survival"
+      MEMORY: "8G"
+      MOTD: "§b§l✦ §aMinecraft §eServer §c1.21.10 §b§l✦"
+      LEVEL_TYPE: "DEFAULT"
+      EULA: "TRUE"
+      ONLINE_MODE: "false"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "password"
+      DIFFICULTY: "normal"
+      GAMEMODE: "survival"
+      MAX_PLAYERS: "10"
+    restart: unless-stopped
+    volumes:
+      - ./data:/data
