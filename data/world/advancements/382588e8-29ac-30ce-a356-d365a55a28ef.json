@@ -174,14 +174,19 @@
       "minecraft:beach": "2025-10-17 13:45:56 +0000",
       "minecraft:dark_forest": "2025-10-18 17:46:16 +0000",
       "minecraft:forest": "2025-10-17 13:10:37 +0000",
+      "minecraft:taiga": "2025-10-22 08:50:50 +0000",
       "minecraft:sparse_jungle": "2025-10-17 13:48:26 +0000",
       "minecraft:river": "2025-10-17 13:11:03 +0000",
       "minecraft:lukewarm_ocean": "2025-10-19 10:23:51 +0000",
       "minecraft:old_growth_birch_forest": "2025-10-18 17:45:41 +0000",
       "minecraft:desert": "2025-10-17 13:05:29 +0000",
+      "minecraft:windswept_forest": "2025-10-22 08:52:30 +0000",
       "minecraft:jungle": "2025-10-17 13:02:49 +0000",
       "minecraft:ocean": "2025-10-20 11:20:21 +0000",
       "minecraft:sunflower_plains": "2025-10-17 17:14:35 +0000",
+      "minecraft:swamp": "2025-10-22 08:52:38 +0000",
+      "minecraft:meadow": "2025-10-22 08:50:48 +0000",
+      "minecraft:birch_forest": "2025-10-22 08:50:10 +0000",
       "minecraft:savanna": "2025-10-18 17:44:02 +0000",
       "minecraft:wooded_badlands": "2025-10-17 13:05:37 +0000",
       "minecraft:plains": "2025-10-17 13:11:05 +0000",
@@ -379,14 +384,15 @@
     "criteria": {
       "cooked_porkchop": "2025-10-17 15:08:44 +0000",
       "mutton": "2025-10-17 18:35:24 +0000",
-      "apple": "2025-10-17 13:08:05 +0000",
-      "spider_eye": "2025-10-18 08:37:27 +0000",
       "bread": "2025-10-17 13:10:59 +0000",
-      "cooked_chicken": "2025-10-17 15:37:33 +0000",
       "rotten_flesh": "2025-10-17 14:56:40 +0000",
       "cooked_mutton": "2025-10-17 15:49:59 +0000",
       "baked_potato": "2025-10-18 10:48:52 +0000",
       "melon_slice": "2025-10-17 13:04:51 +0000",
+      "golden_carrot": "2025-10-22 07:45:09 +0000",
+      "apple": "2025-10-17 13:08:05 +0000",
+      "spider_eye": "2025-10-18 08:37:27 +0000",
+      "cooked_chicken": "2025-10-17 15:37:33 +0000",
       "cooked_salmon": "2025-10-18 09:02:55 +0000",
       "carrot": "2025-10-17 13:21:31 +0000"
     },
@@ -834,6 +840,7 @@
       "minecraft:wither_skeleton": "2025-10-19 13:40:16 +0000",
       "minecraft:husk": "2025-10-17 15:11:32 +0000",
       "minecraft:ghast": "2025-10-18 11:15:28 +0000",
+      "minecraft:hoglin": "2025-10-22 07:08:57 +0000",
       "minecraft:cave_spider": "2025-10-17 15:10:20 +0000",
       "minecraft:piglin": "2025-10-17 15:26:42 +0000",
       "minecraft:stray": "2025-10-18 08:54:59 +0000",
@@ -842,7 +849,8 @@
       "minecraft:spider": "2025-10-17 15:11:12 +0000",
       "minecraft:zombie": "2025-10-17 13:39:02 +0000",
       "minecraft:creeper": "2025-10-17 13:43:22 +0000",
-      "minecraft:drowned": "2025-10-17 16:37:07 +0000"
+      "minecraft:drowned": "2025-10-17 16:37:07 +0000",
+      "minecraft:zombie_villager": "2025-10-22 08:31:03 +0000"
     },
     "done": false
   },
@@ -2196,6 +2204,7 @@
   },
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
+      "swamp_hut": "2025-10-22 08:52:53 +0000",
       "illager_camp": "2025-10-17 17:16:55 +0000"
     },
     "done": false
@@ -4439,6 +4448,264 @@
   "minecraft:adventure/avoid_vibration": {
     "criteria": {
       "avoid_vibration": "2025-10-21 16:33:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-10-22 07:11:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-10-22 07:11:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-10-22 07:11:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2025-10-22 07:24:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-10-22 07:24:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2025-10-22 07:27:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-10-22 08:48:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-10-22 08:48:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_stairs": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-10-22 08:48:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-10-22 08:48:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_nether_brick_wall_from_red_nether_bricks_stonecutting": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-10-22 08:48:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_brick_slab": {
+    "criteria": {
+      "has_red_nether_bricks": "2025-10-22 08:48:49 +0000"
+    },
+    "done": true
+  },
+  "kattersstructures:ambient/witch_circle": {
+    "criteria": {
+      "witch_circle": "2025-10-22 08:52:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2025-10-22 11:08:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2025-10-22 11:24:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_button": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_door": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_fence": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_sign": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_slab": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_stairs": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/birch_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-10-22 14:39:34 +0000"
+    },
+    "done": true
+  },
+  "stellarity:end_city/super_sonic": {
+    "criteria": {
+      "fly": "2025-10-22 14:44:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-10-22 15:18:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-10-22 15:18:58 +0000"
     },
     "done": true
   },

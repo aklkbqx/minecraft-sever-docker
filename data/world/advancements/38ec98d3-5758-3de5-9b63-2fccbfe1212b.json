@@ -169,29 +169,40 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2025-10-22 08:42:26 +0000",
+      "minecraft:old_growth_pine_taiga": "2025-10-22 08:18:41 +0000",
+      "minecraft:forest": "2025-10-17 13:18:21 +0000",
+      "minecraft:taiga": "2025-10-17 17:19:19 +0000",
+      "minecraft:eroded_badlands": "2025-10-17 16:48:46 +0000",
+      "minecraft:desert": "2025-10-17 16:43:17 +0000",
+      "minecraft:frozen_river": "2025-10-22 08:46:22 +0000",
+      "minecraft:jungle": "2025-10-17 13:04:17 +0000",
+      "minecraft:ocean": "2025-10-17 16:23:38 +0000",
+      "minecraft:sunflower_plains": "2025-10-22 07:39:15 +0000",
+      "minecraft:birch_forest": "2025-10-17 16:23:49 +0000",
+      "minecraft:windswept_hills": "2025-10-22 07:53:59 +0000",
+      "minecraft:bamboo_jungle": "2025-10-21 10:08:23 +0000",
+      "minecraft:windswept_savanna": "2025-10-22 07:50:57 +0000",
+      "minecraft:warm_ocean": "2025-10-17 16:42:38 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-10-17 16:35:01 +0000",
       "minecraft:badlands": "2025-10-17 16:48:59 +0000",
+      "minecraft:flower_forest": "2025-10-22 07:39:41 +0000",
       "minecraft:savanna_plateau": "2025-10-17 17:08:21 +0000",
       "minecraft:beach": "2025-10-17 15:07:51 +0000",
       "minecraft:dark_forest": "2025-10-18 17:46:21 +0000",
-      "minecraft:forest": "2025-10-17 13:18:21 +0000",
-      "minecraft:taiga": "2025-10-17 17:19:19 +0000",
       "minecraft:sparse_jungle": "2025-10-17 15:36:14 +0000",
       "minecraft:river": "2025-10-17 13:05:21 +0000",
       "minecraft:lukewarm_ocean": "2025-10-17 16:23:35 +0000",
       "minecraft:stony_shore": "2025-10-17 17:11:50 +0000",
+      "minecraft:snowy_plains": "2025-10-22 08:46:45 +0000",
       "minecraft:dripstone_caves": "2025-10-17 16:56:26 +0000",
+      "minecraft:snowy_taiga": "2025-10-22 08:46:13 +0000",
       "minecraft:old_growth_birch_forest": "2025-10-17 16:24:41 +0000",
-      "minecraft:eroded_badlands": "2025-10-17 16:48:46 +0000",
-      "minecraft:desert": "2025-10-17 16:43:17 +0000",
-      "minecraft:jungle": "2025-10-17 13:04:17 +0000",
-      "minecraft:ocean": "2025-10-17 16:23:38 +0000",
       "minecraft:grove": "2025-10-17 17:41:23 +0000",
-      "minecraft:birch_forest": "2025-10-17 16:23:49 +0000",
+      "minecraft:swamp": "2025-10-22 07:54:22 +0000",
+      "minecraft:meadow": "2025-10-22 08:19:17 +0000",
       "minecraft:savanna": "2025-10-17 16:28:33 +0000",
-      "minecraft:bamboo_jungle": "2025-10-21 10:08:23 +0000",
-      "minecraft:plains": "2025-10-17 13:18:54 +0000",
-      "minecraft:warm_ocean": "2025-10-17 16:42:38 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-10-17 16:35:01 +0000"
+      "minecraft:plains": "2025-10-17 13:18:54 +0000"
     },
     "done": false
   },
@@ -884,12 +895,15 @@
       "minecraft:zombified_piglin": "2025-10-20 17:40:17 +0000",
       "minecraft:witch": "2025-10-20 11:05:05 +0000",
       "minecraft:husk": "2025-10-17 15:10:47 +0000",
+      "minecraft:bogged": "2025-10-22 07:54:56 +0000",
       "minecraft:ghast": "2025-10-18 19:06:04 +0000",
       "minecraft:hoglin": "2025-10-20 13:18:41 +0000",
       "minecraft:shulker": "2025-10-20 15:41:53 +0000",
       "minecraft:cave_spider": "2025-10-17 15:10:16 +0000",
       "minecraft:piglin": "2025-10-18 19:07:37 +0000",
       "minecraft:vindicator": "2025-10-18 17:52:14 +0000",
+      "minecraft:stray": "2025-10-22 08:53:42 +0000",
+      "minecraft:enderman": "2025-10-22 13:36:00 +0000",
       "minecraft:magma_cube": "2025-10-21 15:25:45 +0000",
       "minecraft:spider": "2025-10-18 14:55:10 +0000",
       "minecraft:piglin_brute": "2025-10-21 15:04:51 +0000",
@@ -2203,7 +2217,8 @@
   "nova_structures:adventure/find_all_taverns": {
     "criteria": {
       "nova_structures:tavern_oak": "2025-10-17 17:47:16 +0000",
-      "nova_structures:tavern_birch": "2025-10-17 17:11:19 +0000"
+      "nova_structures:tavern_birch": "2025-10-17 17:11:19 +0000",
+      "nova_structures:tavern_swamp": "2025-10-22 08:02:15 +0000"
     },
     "done": false
   },
@@ -3767,6 +3782,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-10-21 16:59:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_slab": {
     "criteria": {
       "has_quartz_block": "2025-10-21 17:01:42 +0000"
@@ -3785,21 +3806,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2025-10-21 16:59:44 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/quartz_pillar": {
     "criteria": {
       "has_quartz_block": "2025-10-21 17:01:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone": {
-    "criteria": {
-      "has_redstone_block": "2025-10-21 17:42:54 +0000"
     },
     "done": true
   },
@@ -3848,6 +3857,150 @@
   "infinity_cave:display/enchantlet/efficiency_6": {
     "criteria": {
       "requirement": "2025-10-21 17:42:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-10-21 17:42:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2025-10-22 06:16:07 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:display/root": {
+    "criteria": {
+      "requirement": "2025-10-22 06:17:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+    "criteria": {
+      "has_wildflowers": "2025-10-22 07:41:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-10-22 08:12:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_peony": {
+    "criteria": {
+      "has_peony": "2025-10-22 08:13:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-10-22 08:13:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-10-22 08:13:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_orange_tulip": {
+    "criteria": {
+      "has_orange_tulip": "2025-10-22 08:13:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_mosaic_slab": {
+    "criteria": {
+      "has_bamboo_mosaic": "2025-10-22 08:43:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_mosaic_stairs": {
+    "criteria": {
+      "has_bamboo_mosaic": "2025-10-22 08:43:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-10-22 08:46:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-10-22 08:46:58 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_stray_outlook": {
+    "criteria": {
+      "stray_outlook": "2025-10-22 08:49:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-10-22 09:13:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/quartz_from_blasting": {
+    "criteria": {
+      "has_nether_quartz_ore": "2025-10-22 09:13:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2025-10-22 10:30:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-10-22 13:28:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-10-22 13:28:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2025-10-22 14:31:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2025-10-22 14:31:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_the_recipe": "2025-10-22 13:36:01 +0000"
+    },
+    "done": true
+  },
+  "stellarity:minecraft/story/obtain_an_ender_pearl": {
+    "criteria": {
+      "criteria": "2025-10-22 13:36:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-10-22 11:29:14 +0000"
     },
     "done": true
   },
