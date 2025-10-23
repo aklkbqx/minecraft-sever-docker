@@ -11,12 +11,6 @@
     },
     "done": true
   },
-  "infinity_cave:technical/molten_hammer/mainhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2025-10-22 14:12:12 +0000"
@@ -53,18 +47,6 @@
     },
     "done": true
   },
-  "infinity_cave:mechanics/weapons/sonic_bow/tick": {
-    "criteria": {
-      "requirement": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
-  "kattersstructures:root": {
-    "criteria": {
-      "requirement": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/minecart": {
     "criteria": {
       "has_iron_ingot": "2025-10-22 14:12:12 +0000"
@@ -86,18 +68,6 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2025-10-22 14:12:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/crafting_table": {
-    "criteria": {
-      "unlock_right_away": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
-  "infinity_cave:technical/ender_sword/offhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
     },
     "done": true
   },
@@ -125,12 +95,6 @@
     },
     "done": true
   },
-  "infinity_cave:technical/nimbus_nunchucks/offhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
   "stellarity:recipes/gunpowder_from_popped_chorus_blasting": {
     "criteria": {
       "has_item": "2025-10-22 14:12:12 +0000"
@@ -143,39 +107,15 @@
     },
     "done": true
   },
-  "jodek:utility": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/smithing_table": {
     "criteria": {
       "has_iron_ingot": "2025-10-22 14:12:12 +0000"
     },
     "done": true
   },
-  "infinity_cave:mechanics/weapons/thunder_harpoon/tick": {
-    "criteria": {
-      "requirement": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
-  "infinity_cave:technical/bonding_sword/offhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_iron_ingot": "2025-10-22 14:12:12 +0000"
-    },
-    "done": true
-  },
-  "infinity_cave:technical/katana/offhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
     },
     "done": true
   },
@@ -221,45 +161,15 @@
     },
     "done": true
   },
-  "af.base:root": {
-    "criteria": {
-      "requirement": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
-  "nice_mobs:unlock_recipes": {
-    "criteria": {
-      "recipe": "2025-10-22 14:12:18 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/lantern": {
     "criteria": {
       "has_iron_ingot": "2025-10-22 14:12:12 +0000"
     },
     "done": true
   },
-  "infinity_cave:technical/molten_hammer/offhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
-  "infinity_cave:technical/limestone_sword/mainhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/iron_chain": {
     "criteria": {
       "has_iron_ingot": "2025-10-22 14:12:12 +0000"
-    },
-    "done": true
-  },
-  "infinity_cave:technical/limestone_sword/offhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
     },
     "done": true
   },
@@ -275,51 +185,15 @@
     },
     "done": true
   },
-  "jodek:root": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
-  "infinity_cave:mechanics/rideable_frog/dismount": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
-  "infinity_cave:technical/bonding_sword/mainhand": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dispenser": {
     "criteria": {
       "has_bow": "2025-10-22 14:12:12 +0000"
     },
     "done": true
   },
-  "silentcat_advancements:root": {
-    "criteria": {
-      "tick": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/iron_trapdoor": {
     "criteria": {
       "has_iron_ingot": "2025-10-22 14:12:12 +0000"
-    },
-    "done": true
-  },
-  "infinity_cave:mechanics/altar/tick": {
-    "criteria": {
-      "requirement": "2025-10-22 14:12:13 +0000"
-    },
-    "done": true
-  },
-  "vanilla_refresh:first_join": {
-    "criteria": {
-      "s": "2025-10-22 14:12:13 +0000"
     },
     "done": true
   },
@@ -341,6 +215,138 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2025-10-22 14:12:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-10-22 14:12:12 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/molten_hammer/mainhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:mechanics/weapons/sonic_bow/tick": {
+    "criteria": {
+      "requirement": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "kattersstructures:root": {
+    "criteria": {
+      "requirement": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/ender_sword/offhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/nimbus_nunchucks/offhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "jodek:utility": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:mechanics/weapons/thunder_harpoon/tick": {
+    "criteria": {
+      "requirement": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/bonding_sword/offhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/katana/offhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "af.base:root": {
+    "criteria": {
+      "requirement": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/molten_hammer/offhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/limestone_sword/mainhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/limestone_sword/offhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "jodek:root": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:mechanics/rideable_frog/dismount": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:technical/bonding_sword/mainhand": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "silentcat_advancements:root": {
+    "criteria": {
+      "tick": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "infinity_cave:mechanics/altar/tick": {
+    "criteria": {
+      "requirement": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
+  "vanilla_refresh:first_join": {
+    "criteria": {
+      "s": "2025-10-22 14:12:13 +0000"
+    },
+    "done": true
+  },
   "jodek:callyourhappyghast": {
     "criteria": {
       "tick": "2025-10-22 14:12:13 +0000"
@@ -352,12 +358,6 @@
       "tick": "2025-10-22 14:12:13 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:forest": "2025-10-22 14:12:18 +0000"
-    },
-    "done": false
   },
   "infinity_cave:technical/ender_sword/mainhand": {
     "criteria": {
@@ -389,15 +389,118 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/iron_door": {
+  "nice_mobs:unlock_recipes": {
     "criteria": {
-      "has_iron_ingot": "2025-10-22 14:12:12 +0000"
+      "recipe": "2025-10-22 14:12:18 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+  "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "has_iron_ingot": "2025-10-22 14:12:12 +0000"
+      "minecraft:forest": "2025-10-22 14:12:18 +0000",
+      "minecraft:river": "2025-10-23 08:52:36 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-10-23 08:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-10-23 08:53:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-10-23 08:52:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-10-23 08:51:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-10-23 08:52:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "baked_potato": "2025-10-23 08:53:24 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-10-23 08:52:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-10-23 08:51:54 +0000"
     },
     "done": true
   },
