@@ -13,7 +13,7 @@ services:
       TYPE: "FABRIC"
       VERSION: "1.21.10"
       MODE: "survival"
-      MEMORY: "6G"
+      MEMORY: "8G"
       MOTD: "§b§l✦ §aMinecraft §eServer §c1.21.10 §b§l✦"
       LEVEL_TYPE: "DEFAULT"
       EULA: "TRUE"
@@ -29,14 +29,15 @@ services:
       # JVM_OPTS: "-Dusing.aikars.flags=https://mcflags.emc.gs -Daikars.new.flags=true"
       SPAWN_PROTECTION: "0"
       NETWORK_COMPRESSION_THRESHOLD: "256"
+      TZ: "Asia/Bangkok"
     deploy:
       resources:
         limits:
-          cpus: '3.0'
-          memory: 6144M 
+          cpus: '4.0'
+          memory: 8192M 
         reservations:
-          cpus: '2.0'
-          memory: 4096M
+          cpus: '3.0'
+          memory: 8192M
     restart: unless-stopped
     volumes:
       - ./data:/data
