@@ -1,0 +1,799 @@
+[19:01:48] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.17.3
+[19:01:49] [main/INFO]: Loading 35 mods:
+	- c2me 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-base 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-client-uncapvd 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-fixes-general-threading-issues 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-notickvd 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-allocs 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-chunkio 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-dfc 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-math 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-scheduling 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-worldgen-general 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-worldgen-vanilla 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-rewrites-chunk-serializer 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-rewrites-chunk-system 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-rewrites-chunkio 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-server-utils 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-threading-lighting 0.3.6+alpha.0.3+1.21.10
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- fabricloader 0.17.3
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- java 21
+	- krypton 0.2.10
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- lithium 0.20.0+mc1.21.10
+	- minecraft 1.21.10
+[19:01:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:01:53] [main/INFO]: Compatibility level set to JAVA_16
+[19:01:53] [main/INFO]: Compatibility level set to JAVA_17
+[19:01:53] [main/INFO]: Compatibility level set to JAVA_21
+[19:01:53] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:01:54] [main/INFO]: Global Executor Parallelism: 2 configured, 2 evaluated, 2 default evaluated
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:01:54] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:01:54] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:01:54] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[19:01:54] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
+[19:01:54] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/base/event/ArrayBackedEvent (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/base/event/ArrayBackedEvent)
+[19:01:54] [main/WARN]: @Mixin target net.fabricmc.fabric.impl.base.event.ArrayBackedEvent was not found c2me-base.mixins.json:access.fapi.IArrayBackedEvent from mod c2me-base
+[19:01:54] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[19:01:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:02:06] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[19:02:06] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[19:02:06] [main/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[19:02:06] [main/WARN]: resource-pack-id missing, using default of 9d6f0777-7132-3092-93f4-395e95d36a45
+[19:02:06] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:02:07] [main/ERROR]: Couldn't load file/Katters Structures.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[19:02:08] [main/ERROR]: Couldn't load file/Shield Progression.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[19:02:08] [main/ERROR]: Couldn't load file/Stellarity-5.1.1.zip pack metadata: Pack key supported_formats is deprecated starting from pack format 82. Remove supported_formats from your pack.mcmeta.
+[19:02:08] [main/ERROR]: Couldn't load file/Training_Dummy-Datapack-v1.1.3.zip pack metadata: Pack key supported_formats is deprecated starting from pack format 82. Remove supported_formats from your pack.mcmeta.
+[19:02:08] [main/INFO]: Found non-pack entry './world/datapacks/tree-cut', ignoring
+[19:02:08] [main/WARN]: Non [a-z0-9_.-] character in namespace .DS_Store in pack ./world/datapacks/Health-2.0.0.zip, ignoring
+[19:02:08] [main/WARN]: Non [a-z0-9_.-] character in namespace .DS_Store in pack ./world/datapacks/Health-2.0.0.zip, ignoring
+[19:02:20] [Worker-Main-2/ERROR]: Couldn't parse data file 'mm:entities/diamond' from 'mm:loot_table/entities/diamond.json': DataResult.Error['Failed to parse either. First: Failed to parse either. First: Not a number: {"min":1}; Second: Failed to parse either. First: Input does not contain a key [type]: MapLike[{"min":1}]; Second: No key max in MapLike[{"min":1}]; Second: Not a json array: {"function":"set_count","count":{"min":1}}': net.minecraft.class_52@3ec6d9db]
+[19:02:21] [Worker-Main-2/ERROR]: Couldn't parse data file 'mm:rando' from 'mm:loot_table/rando.json': DataResult.Error['Unknown element name:addition; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:random; No key id in MapLike[{"name":"random","attribute":"random","operation":"addition","slot":"mainhand","amount":{"type":"minecraft:uniform","min":-2147483648,"max":2147483647}}]': net.minecraft.class_52@5eb9a4f1]
+[19:02:21] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:blocks/pitcher_crop@minecraft:loot_table}.pools[1].entries[0]->{infinity_cave:custom_items/frostpale_plant@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
+[19:02:21] [Worker-Main-2/WARN]: Found loot table element validation problem in {effectgems:gem_zombie_gbz@minecraft:loot_table}.pools[1].entries[0]: Missing element apocalypse:zombie/zombie of type minecraft:loot_table
+[19:02:21] [Worker-Main-2/WARN]: Found loot table element validation problem in {infinity_cave:custom_items/frostpale_plant@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
+[19:02:28] [main/INFO]: Loaded 1842 recipes
+[19:02:28] [main/INFO]: Loaded 2137 advancements
+[19:02:29] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[19:02:29] [Server thread/INFO]: Loading properties
+[19:02:29] [Server thread/INFO]: Default game type: SURVIVAL
+[19:02:29] [Server thread/INFO]: Generating keypair
+[19:02:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:02:29] [Server thread/INFO]: Using epoll channel type
+[19:02:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:02:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:02:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:02:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:02:29] [Server thread/INFO]: Preparing level "world"
+[19:02:29] [Server thread/INFO]: Enforcing safe world random access
+[19:02:31] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 796.5 ms
+[19:02:31] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[19:02:31] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.53 ms
+[19:02:32] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 376.7 ms
+[19:02:32] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 45.39 ms
+[19:02:32] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:02:32] [Server thread/INFO]: Preparing spawn area: 100%
+[19:02:32] [Server thread/INFO]: Time elapsed: 15 ms
+[19:02:32] [Server thread/INFO]: Done (2.857s)! For help, type "help"
+[19:02:32] [Server thread/INFO]: Starting remote control listener
+[19:02:32] [Server thread/INFO]: Thread RCON Listener started
+[19:02:32] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[19:02:38] [Server thread/INFO]: [Not Secure] [Server] Veinminer-Enchantment Loaded
+[19:02:38] [Server thread/INFO]: [Not Secure] [Server] Please note: This is an addon, Veinminer needs to be installed too (https://modrinth.com/project/veinminer)
+[19:02:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5814ms or 116 ticks behind
+[19:03:09] [Server thread/INFO]: AkalakKruaboon[/172.20.0.1:58856] logged in with entity id 1485 at (-526.9953788519393, 65.0, -368.31543815639225)
+[19:03:09] [Server thread/INFO]: AkalakKruaboon joined the game
+[19:03:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[19:03:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18781ms or 375 ticks behind
+[19:04:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2120ms or 42 ticks behind
+[19:04:51] [Server thread/INFO]: AkalakKruaboon has made the advancement [We Need to Go Deeper]
+[19:04:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[19:06:03] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1590['Zombified Piglin'/3641, l='ServerLevel[world]', x=-76.50, y=51.00, z=-64.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[19:06:12] [Server thread/INFO]: C_Nes[/172.20.0.1:59092] logged in with entity id 5208 at (-508.68353199559306, 65.0, -361.3078299183435)
+[19:06:12] [Server thread/INFO]: C_Nes joined the game
+[19:06:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
+[19:06:30] [Server thread/INFO]: AkalakKruaboon has made the advancement [Monster Hunter]
+[19:06:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2993ms or 59 ticks behind
+[19:06:44] [Server thread/INFO]: AkalakKruaboon has made the advancement [Take Aim]
+[19:09:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[19:12:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[19:12:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3940ms or 78 ticks behind
+[19:14:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[19:18:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[19:19:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2558ms or 51 ticks behind
+[19:19:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4658ms or 93 ticks behind
+[19:20:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2224ms or 44 ticks behind
+[19:20:09] [Server thread/INFO]: AkalakKruaboon has made the advancement [Local Brewery]
+[19:20:57] [Server thread/INFO]: Named entity class_1548['Bloomer'/10461, l='ServerLevel[world]', x=-536.14, y=222.50, z=-182.47] died: Bloomer was slain by C_Nes
+[19:20:58] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/10294, l='ServerLevel[world]', x=-536.13, y=222.50, z=-183.70] died: Gem Zombie was slain by C_Nes
+[19:21:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
+[19:21:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6548ms or 130 ticks behind
+[19:21:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5015ms or 100 ticks behind
+[19:21:56] [Server thread/WARN]: C_Nes moved too quickly! 0.0,-10.81159662925478,0.0
+[19:21:59] [Server thread/WARN]: C_Nes moved too quickly! 0.0,-14.321690065263297,0.0
+[19:22:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4586ms or 91 ticks behind
+[19:22:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4399ms or 87 ticks behind
+[19:22:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4463ms or 89 ticks behind
+[19:23:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2908ms or 58 ticks behind
+[19:23:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3360ms or 67 ticks behind
+[19:23:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2650ms or 53 ticks behind
+[19:24:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2305ms or 46 ticks behind
+[19:24:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5498ms or 109 ticks behind
+[19:24:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2533ms or 50 ticks behind
+[19:25:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2485ms or 49 ticks behind
+[19:25:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2747ms or 54 ticks behind
+[19:25:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2157ms or 43 ticks behind
+[19:26:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
+[19:26:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2054ms or 41 ticks behind
+[19:26:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3257ms or 65 ticks behind
+[19:28:44] [Server thread/INFO]: AkalakKruaboon has made the advancement [What a Deal!]
+[19:29:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[19:29:55] [Server thread/INFO]: AkalakKruaboon has made the advancement [A Seedy Place]
+[19:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[19:36:16] [Server thread/INFO]: AkalakKruaboon lost connection: Disconnected
+[19:36:16] [Server thread/INFO]: AkalakKruaboon left the game
+[19:36:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2077ms or 41 ticks behind
+[19:36:37] [Server thread/INFO]: AkalakKruaboon[/172.20.0.1:38436] logged in with entity id 18585 at (-483.49080788823727, 65.0, -338.6798567750177)
+[19:36:37] [Server thread/INFO]: AkalakKruaboon joined the game
+[19:36:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5766ms or 115 ticks behind
+[19:36:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4139ms or 82 ticks behind
+[19:37:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3058ms or 61 ticks behind
+[19:37:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2163ms or 43 ticks behind
+[19:38:01] [Server thread/INFO]: AkalakKruaboon has made the advancement [A Terrible Fortress]
+[19:38:07] [Server thread/INFO]: C_Nes has made the advancement [A Terrible Fortress]
+[19:39:39] [Server thread/INFO]: AkalakKruaboon has made the advancement [Into Fire]
+[19:40:47] [Server thread/INFO]: C_Nes has made the advancement [Into Fire]
+[19:42:13] [Server thread/INFO]: AkalakKruaboon has made the advancement [Stone Age]
+[19:47:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[19:47:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11334ms or 226 ticks behind
+[19:47:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12060ms or 241 ticks behind
+[19:48:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6818ms or 136 ticks behind
+[19:54:28] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1590['Zombified Piglin'/21744, l='ServerLevel[world]', x=-77.50, y=15.00, z=-98.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[19:54:34] [Server thread/INFO]: AkalakKruaboon has reached the goal [advancements.stellarity.obtain_ender_pearl]
+[19:54:46] [Server thread/INFO]: AkalakKruaboon has completed the challenge [Hot Tourist Destinations]
+[19:55:01] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_4836['Piglin'/24034, l='ServerLevel[world]', x=-119.50, y=76.00, z=-229.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[19:55:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2162ms or 43 ticks behind
+[19:55:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3170ms or 63 ticks behind
+[19:55:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4782ms or 95 ticks behind
+[19:55:47] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1590['Zombified Piglin'/24619, l='ServerLevel[world]', x=-64.50, y=58.00, z=-225.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[19:56:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4034ms or 80 ticks behind
+[19:56:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3259ms or 65 ticks behind
+[19:56:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2617ms or 52 ticks behind
+[19:56:44] [Server thread/INFO]: AkalakKruaboon has made the advancement [advancements.stellarity.night_sky_stalkers]
+[19:57:14] [Server thread/INFO]: AkalakKruaboon has made the advancement [Sweet Dreams]
+[19:57:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[19:59:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[19:59:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5564ms or 111 ticks behind
+[19:59:40] [Server thread/INFO]: AkalakKruaboon has reached the goal [advancements.stellarity.craft_ender_eye]
+[19:59:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[20:00:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[20:00:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[20:01:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
+[20:01:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2255ms or 45 ticks behind
+[20:01:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3098ms or 61 ticks behind
+[20:02:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3270ms or 65 ticks behind
+[20:02:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2781ms or 55 ticks behind
+[20:02:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2584ms or 51 ticks behind
+[20:03:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2105ms or 42 ticks behind
+[20:04:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
+[20:04:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7014ms or 140 ticks behind
+[20:04:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3769ms or 75 ticks behind
+[20:05:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3079ms or 61 ticks behind
+[20:05:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4079ms or 81 ticks behind
+[20:05:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5380ms or 107 ticks behind
+[20:05:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3304ms or 66 ticks behind
+[20:06:01] [Server thread/WARN]: C_Nes moved too quickly! 0.0,-14.505656546277834,0.0
+[20:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7641ms or 152 ticks behind
+[20:06:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3264ms or 65 ticks behind
+[20:06:54] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/27338, l='ServerLevel[world]', x=-535.33, y=222.50, z=-183.44] died: Gem Zombie was slain by C_Nes
+[20:06:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3366ms or 67 ticks behind
+[20:07:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15634ms or 312 ticks behind
+[20:07:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6446ms or 128 ticks behind
+[20:07:57] [Server thread/INFO]: Named entity class_1548['Bloomer'/27355, l='ServerLevel[world]', x=-536.09, y=222.50, z=-182.49] died: Bloomer was slain by C_Nes
+[20:08:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5683ms or 113 ticks behind
+[20:08:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4134ms or 82 ticks behind
+[20:08:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4561ms or 91 ticks behind
+[20:09:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4879ms or 97 ticks behind
+[20:09:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9271ms or 185 ticks behind
+[20:09:38] [Server thread/WARN]: C_Nes moved too quickly! 0.0,-14.505656546277834,0.0
+[20:09:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4672ms or 93 ticks behind
+[20:10:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2215ms or 44 ticks behind
+[20:10:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[20:11:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[20:11:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2486ms or 49 ticks behind
+[20:14:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
+[20:16:59] [Server thread/INFO]: AkalakKruaboon has reached the goal [You Need a Mint]
+[20:19:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
+[20:24:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
+[20:29:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[20:30:31] [Server thread/INFO]: C_Nes has made the advancement [Local Brewery]
+[20:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2090ms or 41 ticks behind
+[20:39:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2064ms or 41 ticks behind
+[20:39:26] [Server thread/INFO]: C_Nes was shot by AkalakKruaboon
+[20:39:45] [Server thread/INFO]: Mabe1y[/172.20.0.1:41728] logged in with entity id 32501 at (-507.2412668705788, 65.0, -361.6273879562242)
+[20:39:45] [Server thread/INFO]: Mabe1y joined the game
+[20:39:45] [Server thread/INFO]: C_Nes was shot by AkalakKruaboon
+[20:40:24] [Server thread/INFO]: Mabe1y lost connection: Disconnected
+[20:40:24] [Server thread/INFO]: Mabe1y left the game
+[20:41:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[20:42:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[20:44:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[20:44:14] [Server thread/INFO]: Mabe1y[/172.20.0.1:48024] logged in with entity id 33297 at (-497.5718379247699, 65.0, -376.26467994142166)
+[20:44:14] [Server thread/INFO]: Mabe1y joined the game
+[20:44:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2915ms or 58 ticks behind
+[20:45:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[20:45:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2431ms or 48 ticks behind
+[20:45:24] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/22877, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:air"}}
+[20:45:24] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/22877, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{offhand:{count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {offhand:{count:1,id:"minecraft:air"}}
+[20:45:26] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/22877, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":2,"minecraft:unbreaking":1}},count:1,id:"minecraft:diamond_chestplate"},feet:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"},head:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:fire_protection":1}},count:1,id:"minecraft:diamond_helmet"},legs:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:fire_protection":2,"minecraft:unbreaking":3}},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"},offhand:{count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {offhand:{count:1,id:"minecraft:air"}}
+[20:45:26] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/22877, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":2,"minecraft:unbreaking":1}},count:1,id:"minecraft:diamond_chestplate"},feet:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"},head:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:fire_protection":1}},count:1,id:"minecraft:air"},legs:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:fire_protection":2,"minecraft:unbreaking":3}},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {head:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:fire_protection":1}},count:1,id:"minecraft:air"}}
+[20:45:26] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/22877, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":2,"minecraft:unbreaking":1}},count:1,id:"minecraft:air"},feet:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"},legs:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:fire_protection":2,"minecraft:unbreaking":3}},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":2,"minecraft:unbreaking":1}},count:1,id:"minecraft:air"}}
+[20:45:26] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/22877, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{feet:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"},legs:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:fire_protection":2,"minecraft:unbreaking":3}},count:1,id:"minecraft:air"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {legs:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:fire_protection":2,"minecraft:unbreaking":3}},count:1,id:"minecraft:air"}}
+[20:45:26] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/22877, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{feet:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:air"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {feet:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:air"}}
+[20:45:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[20:46:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3226ms or 64 ticks behind
+[20:46:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[20:46:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2626ms or 52 ticks behind
+[20:47:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2850ms or 57 ticks behind
+[20:47:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2083ms or 41 ticks behind
+[20:48:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[20:48:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2797ms or 55 ticks behind
+[20:48:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2321ms or 46 ticks behind
+[20:49:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2115ms or 42 ticks behind
+[20:49:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4716ms or 94 ticks behind
+[20:50:33] [Server thread/INFO]: Mabe1y has reached the goal [You Need a Mint]
+[20:52:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[20:52:25] [Server thread/INFO]: AkalakKruaboon was doomed to fall
+[20:52:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[20:52:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2033ms or 40 ticks behind
+[20:54:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2082ms or 41 ticks behind
+[20:54:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4124ms or 82 ticks behind
+[20:54:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[20:55:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2104ms or 42 ticks behind
+[20:55:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4599ms or 91 ticks behind
+[20:55:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4269ms or 85 ticks behind
+[20:56:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7450ms or 149 ticks behind
+[20:56:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4055ms or 81 ticks behind
+[20:56:46] [Server thread/INFO]: Mabe1y has reached the goal [advancements.stellarity.obtain_ender_pearl]
+[20:56:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2796ms or 55 ticks behind
+[20:57:12] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1590['Zombified Piglin'/38288, l='ServerLevel[world]', x=-79.50, y=15.00, z=-55.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[20:57:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3180ms or 63 ticks behind
+[20:59:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
+[20:59:26] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/38646, l='ServerLevel[world]', x=-535.30, y=222.50, z=-183.35] died: Gem Zombie was slain by Mabe1y
+[20:59:28] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/38158, l='ServerLevel[world]', x=-536.18, y=222.50, z=-183.70] died: Gem Zombie was slain by Mabe1y
+[20:59:57] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_4836['Piglin'/39172, l='ServerLevel[world]', x=-114.50, y=76.00, z=-224.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[21:00:50] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/39191, l='ServerLevel[world]', x=-536.70, y=222.50, z=-183.28] died: Gem Zombie fell from a high place
+[21:03:04] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1590['Zombified Piglin'/39607, l='ServerLevel[world]', x=-87.50, y=74.00, z=-289.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[21:04:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[21:04:24] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/39357, l='ServerLevel[world]', x=-535.87, y=222.50, z=-183.62] died: Gem Zombie was slain by Mabe1y
+[21:04:38] [Server thread/INFO]: Named entity class_1548['Bloomer'/40141, l='ServerLevel[world]', x=-536.72, y=222.50, z=-183.50] died: Bloomer was slain by Mabe1y
+[21:05:11] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/40200, l='ServerLevel[world]', x=-535.94, y=222.50, z=-183.03] died: Gem Zombie was slain by Mabe1y
+[21:05:13] [Server thread/INFO]: Named entity class_1548['Bloomer'/40307, l='ServerLevel[world]', x=-535.28, y=223.67, z=-182.49] died: Bloomer was slain by Mabe1y
+[21:05:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[21:05:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3932ms or 78 ticks behind
+[21:06:12] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1590['Zombified Piglin'/42431, l='ServerLevel[world]', x=-62.50, y=58.00, z=-221.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[21:06:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3950ms or 79 ticks behind
+[21:06:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2777ms or 55 ticks behind
+[21:06:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4261ms or 85 ticks behind
+[21:07:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4874ms or 97 ticks behind
+[21:07:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4509ms or 90 ticks behind
+[21:07:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4668ms or 93 ticks behind
+[21:08:11] [Server thread/INFO]: Mabe1y has made the advancement [We Need to Go Deeper]
+[21:08:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4654ms or 93 ticks behind
+[21:09:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11, y=34, z=-244} class_2338{x=35, y=33, z=-220}
+[21:12:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=86, y=32, z=-251} class_2338{x=83, y=35, z=-266}
+[21:12:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=86, y=32, z=-251} class_2338{x=83, y=35, z=-266}
+[21:12:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=86, y=32, z=-251} class_2338{x=83, y=35, z=-266}
+[21:12:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=86, y=32, z=-251} class_2338{x=83, y=35, z=-266}
+[21:12:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=86, y=32, z=-251} class_2338{x=83, y=35, z=-266}
+[21:13:43] [Server thread/INFO]: Mabe1y has made the advancement [Take Aim]
+[21:15:09] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1590['Zombified Piglin'/44405, l='ServerLevel[world]', x=-86.50, y=66.00, z=-221.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[21:15:44] [Server thread/INFO]: C_Nes has made the advancement [Spooky Scary Skeleton]
+[21:17:45] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1590['Zombified Piglin'/44642, l='ServerLevel[world]', x=-95.50, y=66.00, z=-276.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[21:19:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22059ms or 441 ticks behind
+[21:22:21] [Server thread/INFO]: Mabe1y was slain by Zombified Piglin
+[21:22:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[21:22:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5677ms or 113 ticks behind
+[21:23:12] [Server thread/INFO]: Mabe1y tried to swim in lava to escape Piglin
+[21:23:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[21:23:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6593ms or 131 ticks behind
+[21:24:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2106ms or 42 ticks behind
+[21:28:24] [Server thread/INFO]: Mabe1y has made the advancement [Suit Up]
+[21:29:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[21:30:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[21:30:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6143ms or 122 ticks behind
+[21:30:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[21:30:47] [Server thread/INFO]: Mabe1y has made the advancement [Into Fire]
+[21:30:51] [Server thread/INFO]: Mabe1y has reached the goal [advancements.stellarity.craft_ender_eye]
+[21:31:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[21:31:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[21:32:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
+[21:32:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2364ms or 47 ticks behind
+[21:32:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[21:32:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4326ms or 86 ticks behind
+[21:33:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3783ms or 75 ticks behind
+[21:33:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4905ms or 98 ticks behind
+[21:33:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3175ms or 63 ticks behind
+[21:34:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8013ms or 160 ticks behind
+[21:34:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3553ms or 71 ticks behind
+[21:34:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7018ms or 140 ticks behind
+[21:35:18] [Server thread/INFO]: SSSSSS[/172.20.0.1:49558] logged in with entity id 57649 at (-517.6505155319284, 65.0, -402.3637555718064)
+[21:35:18] [Server thread/INFO]: SSSSSS joined the game
+[21:35:20] [Server thread/WARN]: C_Nes moved too quickly! -0.47929781028039997,-0.01231929481029681,10.667600481140767
+[21:35:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8951ms or 179 ticks behind
+[21:35:27] [Server thread/WARN]: C_Nes moved too quickly! 9.979128045110997,0.3315728783644687,-6.611261647172
+[21:35:27] [Server thread/WARN]: SSSSSS moved too quickly! -0.24170868977637383,14.13701679849541,8.02537548062594
+[21:35:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10612ms or 212 ticks behind
+[21:36:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6326ms or 126 ticks behind
+[21:36:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11048ms or 220 ticks behind
+[21:36:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8096ms or 161 ticks behind
+[21:37:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7195ms or 143 ticks behind
+[21:37:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9505ms or 190 ticks behind
+[21:38:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9934ms or 198 ticks behind
+[21:38:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11147ms or 222 ticks behind
+[21:38:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9466ms or 189 ticks behind
+[21:39:22] [Server thread/WARN]: SSSSSS moved too quickly! -12.188575501312584,24.81205165479409,9.93672476309581
+[21:39:26] [Server thread/WARN]: SSSSSS moved too quickly! -13.503842487804889,10.329638503073966,5.335510486584212
+[21:39:30] [Server thread/WARN]: SSSSSS moved too quickly! -4.054763054841658,20.626117303344927,9.717119802217326
+[21:39:30] [Server thread/WARN]: SSSSSS moved too quickly! -3.432532799111584,17.217424047322737,8.18919853129745
+[21:39:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17229ms or 344 ticks behind
+[21:39:34] [Server thread/WARN]: SSSSSS moved too quickly! -13.260537054859128,9.423778037954776,7.282101502089404
+[21:39:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11354ms or 227 ticks behind
+[21:40:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9875ms or 197 ticks behind
+[21:40:39] [Server thread/INFO]: Named entity class_1548['Bloomer'/60810, l='ServerLevel[world]', x=-535.28, y=222.50, z=-183.35] died: Bloomer was slain by SSSSSS
+[21:40:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11729ms or 234 ticks behind
+[21:40:57] [Server thread/WARN]: SSSSSS moved too quickly! 4.572023808698191,-14.559474633857292,-9.174852412981608
+[21:41:00] [Server thread/WARN]: SSSSSS moved too quickly! 2.961378190297296,-8.267818421175178,-17.767050841943018
+[21:41:04] [Server thread/WARN]: SSSSSS moved too quickly! 3.833721442087949,-13.60149869729537,-11.241002071436156
+[21:41:11] [Server thread/WARN]: SSSSSS moved too quickly! 7.1106817460417915,-2.0903348599156004,-16.11943202508388
+[21:41:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11450ms or 229 ticks behind
+[21:41:31] [Server thread/WARN]: SSSSSS moved too quickly! -7.541261574352632,8.51817251536157,14.35930365512445
+[21:41:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11310ms or 226 ticks behind
+[21:41:54] [Server thread/INFO]: AkalakKruaboon has made the advancement [The Parrots and the Bats]
+[21:42:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11992ms or 239 ticks behind
+[21:42:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11657ms or 233 ticks behind
+[21:43:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11790ms or 235 ticks behind
+[21:43:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10765ms or 215 ticks behind
+[21:43:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11171ms or 223 ticks behind
+[21:44:08] [Server thread/WARN]: Mabe1y moved too quickly! 0.0,-10.72812610848311,0.010260786734477279
+[21:44:10] [Server thread/WARN]: Mabe1y moved too quickly! 0.0,-12.487512062367102,0.0
+[21:44:10] [Server thread/WARN]: Mabe1y moved too quickly! 0.0,-10.314656891539187,0.0
+[21:44:12] [Server thread/WARN]: Mabe1y moved too quickly! 0.0,-13.746956090073013,0.0
+[21:44:14] [Server thread/WARN]: Mabe1y moved too quickly! 0.0,-10.408991223757695,0.0
+[21:44:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14756ms or 295 ticks behind
+[21:44:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13121ms or 262 ticks behind
+[21:45:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8555ms or 171 ticks behind
+[21:45:37] [Server thread/WARN]: C_Nes moved too quickly! -10.860849873389157,-0.005476156398636078,1.5446160881632522
+[21:45:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7376ms or 147 ticks behind
+[21:45:39] [Server thread/WARN]: C_Nes moved too quickly! -10.25798321612308,-0.08809766506831807,0.42388168142559834
+[21:45:40] [Server thread/WARN]: C_Nes moved too quickly! -11.08659607095251,-0.2020539723349728,-0.8739803437151181
+[21:45:45] [Server thread/WARN]: C_Nes moved too quickly! -11.765015444193978,-0.01600947797298602,-0.4664395318372385
+[21:45:49] [Server thread/WARN]: C_Nes moved too quickly! -12.334335600547547,0.7558610038266949,-0.2841885764501626
+[21:45:54] [Server thread/WARN]: C_Nes moved too quickly! -5.111099995112568,-0.11945792197732885,-9.088311802464375
+[21:45:59] [Server thread/WARN]: C_Nes moved too quickly! -10.580672534942096,0.2560286321317946,-2.4818463923002696
+[21:46:03] [Server thread/WARN]: C_Nes moved too quickly! -0.6488149624765356,-0.27250894205460696,10.895713806895174
+[21:46:07] [Server thread/WARN]: C_Nes moved too quickly! -4.522670845382208,-0.8606520087776701,8.92582672259806
+[21:46:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17771ms or 355 ticks behind
+[21:46:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13053ms or 261 ticks behind
+[21:46:46] [Server thread/WARN]: SSSSSS moved too quickly! -16.1125165359731,7.370117940316632,2.6100483780037393
+[21:46:58] [Server thread/WARN]: Mabe1y moved too quickly! -9.849843032275885,1.408569191005597,2.77438419779628
+[21:46:58] [Server thread/WARN]: SSSSSS moved too quickly! -17.208393913539794,-1.6982862974039392,6.392816058334176
+[21:47:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7763ms or 155 ticks behind
+[21:47:02] [Server thread/WARN]: SSSSSS moved too quickly! -11.548229377548296,14.387628423081253,2.6375567401147464
+[21:47:06] [Server thread/WARN]: C_Nes moved too quickly! -1.175875020918511,-0.23287640828490908,-10.142102709620417
+[21:47:06] [Server thread/WARN]: Mabe1y moved too quickly! -10.068534958467694,0.0,2.225599599848408
+[21:47:17] [Server thread/WARN]: C_Nes moved too quickly! 9.054084564969571,0.4364464512533459,-7.382470000934234
+[21:47:20] [Server thread/WARN]: C_Nes moved too quickly! 10.633180778252836,-0.10819521686254063,3.131638659351154
+[21:47:23] [Server thread/WARN]: C_Nes moved too quickly! 10.079008828191945,-0.11788704475793566,2.5098089761853544
+[21:47:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7334ms or 146 ticks behind
+[21:47:26] [Server thread/WARN]: C_Nes moved too quickly! 10.081374266561625,-0.05208774979983133,2.9886499226573733
+[21:47:27] [Server thread/WARN]: C_Nes moved too quickly! 10.563993284042226,0.5879585482474141,-0.8557244416592198
+[21:47:29] [Server thread/WARN]: C_Nes moved too quickly! 11.347473696814177,-0.1788139228047143,-0.6428028508097441
+[21:47:29] [Server thread/WARN]: Mabe1y moved too quickly! 10.061990006644692,0.0,-1.4212172299898498
+[21:47:32] [Server thread/WARN]: C_Nes moved too quickly! 11.318072540740786,-0.04453358581200462,-2.457159421642416
+[21:47:32] [Server thread/WARN]: Mabe1y moved too quickly! 10.189086709710068,-0.09769517014616014,-1.2600833840182304
+[21:47:35] [Server thread/WARN]: C_Nes moved too quickly! 10.952023411090863,0.4266340969410436,-3.534069091455933
+[21:47:35] [Server thread/WARN]: Mabe1y moved too quickly! 10.144547928361703,-0.020705885142064062,-0.8579186211734395
+[21:47:39] [Server thread/WARN]: Mabe1y moved too quickly! 10.387651416020844,-0.020705885142064062,-0.7942818254772988
+[21:47:42] [Server thread/WARN]: Mabe1y moved too quickly! 10.277026869541942,0.026202268749507596,-0.7834088203086367
+[21:47:42] [Server thread/WARN]: C_Nes moved too quickly! 8.095635605117195,-0.2259739835808574,6.89593713955162
+[21:47:46] [Server thread/WARN]: C_Nes moved too quickly! 3.363497887402673,-0.014661075383926914,9.528466730781702
+[21:47:46] [Server thread/WARN]: Mabe1y moved too quickly! 10.100675223342478,0.04932913120016735,-1.2532185818589596
+[21:47:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9568ms or 191 ticks behind
+[21:47:50] [Server thread/WARN]: C_Nes moved too quickly! 11.147973515906074,0.6849589335973434,-3.7812291376391727
+[21:47:50] [Server thread/WARN]: Mabe1y moved too quickly! 10.044845036131505,0.2222801109302992,-2.190884251715943
+[21:47:53] [Server thread/WARN]: Mabe1y moved too quickly! 6.128582991104963,0.01428248081356287,-8.49911336039429
+[21:47:53] [Server thread/WARN]: C_Nes moved too quickly! -2.055491152007562,-0.018524249040595464,10.319217615642856
+[21:47:56] [Server thread/WARN]: Mabe1y moved too quickly! 8.86104831280852,-0.028312460935481454,-5.722292163559018
+[21:47:56] [Server thread/WARN]: C_Nes moved too quickly! 5.227452808979933,-0.6977738729132241,9.496213483092674
+[21:47:59] [Server thread/WARN]: C_Nes moved wrongly!
+[21:48:04] [Server thread/WARN]: C_Nes moved too quickly! 9.849015809558864,-0.19938593589300524,2.1289366827988374
+[21:48:08] [Server thread/WARN]: Mabe1y moved too quickly! 9.616085895214269,0.5316520861279344,-3.4034848684046892
+[21:48:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13521ms or 270 ticks behind
+[21:48:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10690ms or 213 ticks behind
+[21:49:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11605ms or 232 ticks behind
+[21:49:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10582ms or 211 ticks behind
+[21:49:54] [Server thread/WARN]: C_Nes moved too quickly! -11.530949423244806,0.006177800036951453,1.6488071451245787
+[21:49:54] [Server thread/WARN]: Mabe1y moved too quickly! -10.541107853276117,0.24383027569399474,1.5634538579586206
+[21:49:57] [Server thread/WARN]: C_Nes moved too quickly! -9.820107734307385,0.5679748551118564,4.5739024436259115
+[21:49:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7823ms or 156 ticks behind
+[21:49:59] [Server thread/WARN]: C_Nes moved too quickly! -7.9391434672263586,-0.5550626574546342,6.487121204647565
+[21:50:01] [Server thread/WARN]: C_Nes moved too quickly! -8.550077093208415,0.3595571890906655,6.950280052144365
+[21:51:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2069ms or 41 ticks behind
+[21:52:10] [Server thread/INFO]: AkalakKruaboon has made the advancement [Echoes of the Past]
+[21:52:12] [Server thread/INFO]: C_Nes has made the advancement [Echoes of the Past]
+[21:52:15] [Server thread/INFO]: SSSSSS has made the advancement [Echoes of the Past]
+[21:52:24] [Server thread/INFO]: Mabe1y has made the advancement [Echoes of the Past]
+[21:52:25] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/73581, l='ServerLevel[world]', x=-1605.45, y=64.92, z=3.42] died: Gem Zombie was slain by SSSSSS
+[21:54:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[21:54:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4417ms or 88 ticks behind
+[21:54:44] [Server thread/INFO]: SSSSSS was blown up by Creeper
+[21:54:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
+[21:55:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7743ms or 154 ticks behind
+[21:55:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7373ms or 147 ticks behind
+[21:55:56] [Server thread/INFO]: AkalakKruaboon lost connection: Disconnected
+[21:55:56] [Server thread/INFO]: AkalakKruaboon left the game
+[21:55:58] [Server thread/INFO]: Mabe1y lost connection: Disconnected
+[21:55:58] [Server thread/INFO]: Mabe1y left the game
+[21:56:00] [Server thread/INFO]: C_Nes lost connection: Disconnected
+[21:56:00] [Server thread/INFO]: C_Nes left the game
+[21:56:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10756ms or 215 ticks behind
+[21:56:38] [Server thread/INFO]: C_Nes[/172.20.0.1:59652] logged in with entity id 79113 at (-2053.8727090836655, 93.0, 228.32758585327286)
+[21:56:38] [Server thread/INFO]: C_Nes joined the game
+[21:56:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
+[21:56:54] [Server thread/INFO]: Mabe1y[/172.20.0.1:36686] logged in with entity id 79395 at (-2054.3926801786997, 93.0, 224.30000001192093)
+[21:56:54] [Server thread/INFO]: Mabe1y joined the game
+[21:56:54] [Server thread/INFO]: AkalakKruaboon[/172.20.0.1:44986] logged in with entity id 79396 at (-2048.922336948736, 95.0, 227.2543246609283)
+[21:56:54] [Server thread/INFO]: AkalakKruaboon joined the game
+[21:57:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14813ms or 296 ticks behind
+[21:57:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11860ms or 237 ticks behind
+[21:57:46] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.631693863589362,-2.6876548616543374,-3.8191433782074
+[21:58:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11754ms or 235 ticks behind
+[21:58:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8689ms or 173 ticks behind
+[21:58:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9138ms or 182 ticks behind
+[21:59:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13019ms or 260 ticks behind
+[21:59:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6921ms or 138 ticks behind
+[22:00:04] [Server thread/INFO]: Command execution stopped due to limit (executed 65536 commands)
+[22:00:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10518ms or 210 ticks behind
+[22:00:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6852ms or 137 ticks behind
+[22:00:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4835ms or 96 ticks behind
+[22:01:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2707ms or 54 ticks behind
+[22:01:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2723ms or 54 ticks behind
+[22:01:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3315ms or 66 ticks behind
+[22:02:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3993ms or 79 ticks behind
+[22:02:08] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/83115, l='ServerLevel[world]', x=-1541.40, y=-2.00, z=51.40] died: Gem Zombie suffocated in a wall
+[22:02:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3811ms or 76 ticks behind
+[22:02:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4165ms or 83 ticks behind
+[22:02:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3219ms or 64 ticks behind
+[22:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3289ms or 65 ticks behind
+[22:03:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3510ms or 70 ticks behind
+[22:03:49] [Server thread/INFO]: Named entity class_1452['Piggy Bank'/83311, l='ServerLevel[world]', x=-1620.86, y=68.00, z=139.77] died: Piggy Bank was slain by SSSSSS
+[22:03:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4510ms or 90 ticks behind
+[22:04:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6998ms or 139 ticks behind
+[22:04:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4166ms or 83 ticks behind
+[22:04:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3875ms or 77 ticks behind
+[22:05:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3301ms or 66 ticks behind
+[22:05:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
+[22:05:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3187ms or 63 ticks behind
+[22:06:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2160ms or 43 ticks behind
+[22:06:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[22:06:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3668ms or 73 ticks behind
+[22:07:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2142ms or 42 ticks behind
+[22:07:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[22:07:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2059ms or 41 ticks behind
+[22:08:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[22:08:27] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-161, y=-58, z=-83}
+[22:08:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[22:08:29] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-158, y=-57, z=-42}
+[22:08:29] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-161, y=-58, z=-83}
+[22:08:35] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-211, y=-58, z=-85}
+[22:08:35] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-158, y=-57, z=-42}
+[22:08:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3272ms or 65 ticks behind
+[22:09:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3897ms or 77 ticks behind
+[22:09:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8781ms or 175 ticks behind
+[22:09:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5785ms or 115 ticks behind
+[22:10:06] [Server thread/INFO]: Named entity class_1548['Bloomer'/86129, l='ServerLevel[world]', x=-2375.50, y=42.00, z=357.40] died: Bloomer suffocated in a wall
+[22:10:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3925ms or 78 ticks behind
+[22:10:25] [c2me-worker-1/WARN]: Skipping Entity with id [invalid]
+[22:10:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2739ms or 54 ticks behind
+[22:10:41] [Server thread/INFO]: SSSSSS has reached the goal [advancements.stellarity.craft_ender_eye]
+[22:10:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3329ms or 66 ticks behind
+[22:11:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
+[22:11:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3199ms or 63 ticks behind
+[22:11:25] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/86886, l='ServerLevel[world]', x=-2366.61, y=79.00, z=369.01] died: Gem Zombie was slain by C_Nes
+[22:11:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2797ms or 55 ticks behind
+[22:12:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7142ms or 142 ticks behind
+[22:12:02] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/86836, l='ServerLevel[world]', x=-2385.30, y=77.75, z=349.59] died: Gem Zombie was killed while trying to hurt SSSSSS
+[22:12:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3195ms or 63 ticks behind
+[22:12:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[22:13:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3390ms or 67 ticks behind
+[22:13:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
+[22:13:36] [Server thread/INFO]: C_Nes has reached the goal [advancements.stellarity.craft_ender_eye]
+[22:13:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2823ms or 56 ticks behind
+[22:13:47] [Server thread/INFO]: SSSSSS has made the advancement [Eye Spy]
+[22:13:53] [Server thread/INFO]: C_Nes has made the advancement [Eye Spy]
+[22:13:58] [Server thread/INFO]: AkalakKruaboon has made the advancement [Eye Spy]
+[22:13:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3602ms or 72 ticks behind
+[22:14:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8422ms or 168 ticks behind
+[22:14:38] [Server thread/INFO]: AkalakKruaboon was slain by Vex
+[22:14:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3514ms or 70 ticks behind
+[22:14:53] [Server thread/INFO]: Mabe1y has made the advancement [Eye Spy]
+[22:14:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2911ms or 58 ticks behind
+[22:15:03] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_4836['Piglin'/88404, l='ServerLevel[world]', x=-350.50, y=51.00, z=28.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[22:15:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
+[22:15:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9602ms or 192 ticks behind
+[22:16:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17191ms or 343 ticks behind
+[22:16:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15413ms or 308 ticks behind
+[22:16:47] [Server thread/INFO]: [Not Secure] <C_Nes> -301 32 36
+[22:17:14] [Server thread/INFO]: SSSSSS was slain by Vex
+[22:17:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15052ms or 301 ticks behind
+[22:17:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15743ms or 314 ticks behind
+[22:18:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14393ms or 287 ticks behind
+[22:18:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5508ms or 110 ticks behind
+[22:18:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4911ms or 98 ticks behind
+[22:19:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9277ms or 185 ticks behind
+[22:19:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4654ms or 93 ticks behind
+[22:19:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2528ms or 50 ticks behind
+[22:20:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4687ms or 93 ticks behind
+[22:20:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4082ms or 81 ticks behind
+[22:20:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3543ms or 70 ticks behind
+[22:21:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4440ms or 88 ticks behind
+[22:21:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3198ms or 63 ticks behind
+[22:21:44] [Server thread/WARN]: Tried to over-fill a container
+[22:21:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[22:22:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2473ms or 49 ticks behind
+[22:22:08] [Server thread/INFO]: AkalakKruaboon was shot by Skeleton
+[22:22:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12664ms or 253 ticks behind
+[22:23:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10027ms or 200 ticks behind
+[22:23:03] [Server thread/INFO]: AkalakKruaboon has made the advancement [Isn't It Iron Pick]
+[22:23:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9683ms or 193 ticks behind
+[22:23:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5194ms or 103 ticks behind
+[22:24:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4780ms or 95 ticks behind
+[22:24:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8197ms or 163 ticks behind
+[22:24:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2378ms or 47 ticks behind
+[22:25:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2233ms or 44 ticks behind
+[22:25:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3236ms or 64 ticks behind
+[22:25:35] [Server thread/INFO]: AkalakKruaboon has made the advancement [Suit Up]
+[22:25:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2351ms or 47 ticks behind
+[22:25:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3792ms or 75 ticks behind
+[22:26:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[22:26:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2232ms or 44 ticks behind
+[22:26:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
+[22:27:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[22:27:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2713ms or 54 ticks behind
+[22:27:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[22:28:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[22:28:16] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> สิน ธนูกูๆๆๆๆ
+[22:28:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
+[22:28:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3801ms or 76 ticks behind
+[22:29:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2253ms or 45 ticks behind
+[22:29:22] [Server thread/INFO]: Named entity class_1452['Piggy Bank'/93765, l='ServerLevel[world]', x=-2467.51, y=-2917.00, z=306.90] died: Piggy Bank was killed
+[22:29:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6493ms or 129 ticks behind
+[22:29:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2465ms or 49 ticks behind
+[22:30:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
+[22:30:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
+[22:30:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2438ms or 48 ticks behind
+[22:31:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[22:31:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[22:31:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2341ms or 46 ticks behind
+[22:32:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2356ms or 47 ticks behind
+[22:32:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2226ms or 44 ticks behind
+[22:32:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4647ms or 92 ticks behind
+[22:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
+[22:34:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
+[22:35:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[22:35:58] [Server thread/INFO]: AkalakKruaboon has made the advancement [Ice Bucket Challenge]
+[22:39:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2493ms or 49 ticks behind
+[22:39:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5667ms or 113 ticks behind
+[22:39:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4172ms or 83 ticks behind
+[22:40:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4178ms or 83 ticks behind
+[22:42:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
+[22:42:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5189ms or 103 ticks behind
+[22:42:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2309ms or 46 ticks behind
+[22:43:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3039ms or 60 ticks behind
+[22:43:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
+[22:43:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[22:43:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7418ms or 148 ticks behind
+[22:44:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17431ms or 348 ticks behind
+[22:44:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10886ms or 217 ticks behind
+[22:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11905ms or 238 ticks behind
+[22:45:52] [Server thread/INFO]: Mabe1y has made the advancement [A Major Trial Of Strength]
+[22:45:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16392ms or 327 ticks behind
+[22:46:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20125ms or 402 ticks behind
+[22:47:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18280ms or 365 ticks behind
+[22:47:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17802ms or 356 ticks behind
+[22:48:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17224ms or 344 ticks behind
+[22:48:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18019ms or 360 ticks behind
+[22:48:45] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/105637, l='ServerLevel[world]', x=-509.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},head:{components:{"minecraft:damage":3,"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:diamond_helmet"},mainhand:{count:1,id:"minecraft:air"},offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:trident"}}' from field 'equipment': Item must not be minecraft:air missed input: {mainhand:{count:1,id:"minecraft:air"}}
+[22:48:45] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/105637, l='ServerLevel[world]', x=-509.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},head:{components:{"minecraft:damage":3,"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:diamond_helmet"},offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[22:48:45] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/105637, l='ServerLevel[world]', x=-509.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},head:{components:{"minecraft:damage":3,"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {head:{components:{"minecraft:damage":3,"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[22:48:45] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/105637, l='ServerLevel[world]', x=-509.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {chest:{components:{"minecraft:damage":1,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:air"}}
+[22:49:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21664ms or 433 ticks behind
+[22:49:44] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> แปป
+[22:49:48] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> เน็ตกาก
+[22:49:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18979ms or 379 ticks behind
+[22:50:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19607ms or 392 ticks behind
+[22:51:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20149ms or 402 ticks behind
+[22:51:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17928ms or 358 ticks behind
+[22:52:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16071ms or 321 ticks behind
+[22:52:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15673ms or 313 ticks behind
+[22:53:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17905ms or 358 ticks behind
+[22:53:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15098ms or 301 ticks behind
+[22:54:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17841ms or 356 ticks behind
+[22:54:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16947ms or 338 ticks behind
+[22:55:07] [Server thread/INFO]: AkalakKruaboon has completed the challenge [Serious Dedication]
+[22:55:07] [Server thread/INFO]: AkalakKruaboon has made the advancement [WOAH BE CAREFUL, THAT'S REALLY SHARP!]
+[22:55:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17262ms or 345 ticks behind
+[22:55:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17525ms or 350 ticks behind
+[22:56:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15470ms or 309 ticks behind
+[22:56:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15457ms or 309 ticks behind
+[22:57:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4498ms or 89 ticks behind
+[22:57:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3129ms or 62 ticks behind
+[22:57:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3552ms or 71 ticks behind
+[22:58:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3094ms or 61 ticks behind
+[22:58:08] [Server thread/INFO]: C_Nes has completed the challenge [Serious Dedication]
+[22:58:08] [Server thread/INFO]: C_Nes has made the advancement [WOAH BE CAREFUL, THAT'S REALLY SHARP!]
+[22:58:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2749ms or 54 ticks behind
+[22:58:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3289ms or 65 ticks behind
+[22:58:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3040ms or 60 ticks behind
+[22:59:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7911ms or 158 ticks behind
+[22:59:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4491ms or 89 ticks behind
+[23:00:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4501ms or 90 ticks behind
+[23:00:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4948ms or 98 ticks behind
+[23:00:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4728ms or 94 ticks behind
+[23:01:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6595ms or 131 ticks behind
+[23:01:16] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/114721, l='ServerLevel[world]', x=-535.30, y=222.50, z=-183.70] died: Gem Zombie was slain by SSSSSS
+[23:01:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5866ms or 117 ticks behind
+[23:01:24] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/114670, l='ServerLevel[world]', x=-536.46, y=222.50, z=-183.22] died: Gem Zombie was slain by SSSSSS
+[23:01:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6069ms or 121 ticks behind
+[23:02:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8103ms or 162 ticks behind
+[23:02:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15253ms or 305 ticks behind
+[23:03:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15027ms or 300 ticks behind
+[23:03:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14136ms or 282 ticks behind
+[23:03:53] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/117589, l='ServerLevel[world]', x=-536.20, y=222.50, z=-183.70] died: Gem Zombie was slain by SSSSSS
+[23:04:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14911ms or 298 ticks behind
+[23:04:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18370ms or 367 ticks behind
+[23:05:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13127ms or 262 ticks behind
+[23:05:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12923ms or 258 ticks behind
+[23:06:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14101ms or 282 ticks behind
+[23:06:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19912ms or 398 ticks behind
+[23:07:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14613ms or 292 ticks behind
+[23:07:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18822ms or 376 ticks behind
+[23:08:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19823ms or 396 ticks behind
+[23:08:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13625ms or 272 ticks behind
+[23:09:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17938ms or 358 ticks behind
+[23:09:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13519ms or 270 ticks behind
+[23:10:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15021ms or 300 ticks behind
+[23:10:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16831ms or 336 ticks behind
+[23:11:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16402ms or 328 ticks behind
+[23:11:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15815ms or 316 ticks behind
+[23:12:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11029ms or 220 ticks behind
+[23:12:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9234ms or 184 ticks behind
+[23:13:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10303ms or 206 ticks behind
+[23:13:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13792ms or 275 ticks behind
+[23:13:55] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/119709, l='ServerLevel[world]', x=-536.60, y=222.50, z=-183.63] died: Gem Zombie was slain by SSSSSS
+[23:14:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21133ms or 422 ticks behind
+[23:14:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20868ms or 417 ticks behind
+[23:15:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15409ms or 308 ticks behind
+[23:15:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12589ms or 251 ticks behind
+[23:16:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14241ms or 284 ticks behind
+[23:16:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17609ms or 352 ticks behind
+[23:17:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16595ms or 331 ticks behind
+[23:17:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18373ms or 367 ticks behind
+[23:18:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11838ms or 236 ticks behind
+[23:18:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12477ms or 249 ticks behind
+[23:19:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14703ms or 294 ticks behind
+[23:19:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11761ms or 235 ticks behind
+[23:20:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10892ms or 217 ticks behind
+[23:20:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12914ms or 258 ticks behind
+[23:21:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14197ms or 283 ticks behind
+[23:21:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12681ms or 253 ticks behind
+[23:22:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11652ms or 233 ticks behind
+[23:22:08] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_4836['Piglin'/123259, l='ServerLevel[world]', x=-341.50, y=78.00, z=104.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
+[23:22:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13137ms or 262 ticks behind
+[23:22:38] [Server thread/INFO]: Mabe1y has made the advancement [advancements.stellarity.night_sky_stalkers]
+[23:22:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16796ms or 335 ticks behind
+[23:23:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19634ms or 392 ticks behind
+[23:24:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21501ms or 430 ticks behind
+[23:24:38] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/123159, l='ServerLevel[world]', x=-535.48, y=222.50, z=-183.69] died: Gem Zombie was slain by SSSSSS
+[23:24:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24930ms or 498 ticks behind
+[23:25:25] [Server thread/INFO]: C_Nes has made the advancement [You've Got a Friend in Me]
+[23:25:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23750ms or 475 ticks behind
+[23:26:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21647ms or 432 ticks behind
+[23:26:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18309ms or 366 ticks behind
+[23:27:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21699ms or 433 ticks behind
+[23:27:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19305ms or 386 ticks behind
+[23:27:57] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:diamond_helmet"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"},offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:27:57] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:27:57] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:air"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:air"}}
+[23:27:57] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:air"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:air"}}
+[23:27:57] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:air"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:28:01] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:diamond_helmet"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"},offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:28:01] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:28:01] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:air"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:air"}}
+[23:28:01] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:air"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:air"}}
+[23:28:01] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:air"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:28:06] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:diamond_helmet"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"},offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}' from field 'equipment': Item must not be minecraft:air missed input: {offhand:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:riptide":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:28:06] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:diamond_chestplate"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {head:{components:{"minecraft:enchantments":{"minecraft:fire_protection":1,"minecraft:mending":1,"minecraft:unbreaking":3},"minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:28:06] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:air"},feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:diamond_leggings"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {chest:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2,"minecraft:unbreaking":3},"minecraft:repair_cost":15},count:1,id:"minecraft:air"}}
+[23:28:06] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:diamond_boots"},legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:air"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {legs:{components:{"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4,"minecraft:thorns":2},"minecraft:repair_cost":7},count:1,id:"minecraft:air"}}
+[23:28:06] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
+class_1531['Armor Stand'/116054, l='ServerLevel[world]', x=-503.50, y=65.00, z=-380.50]: Failed to decode value '{feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:air"},mainhand:{components:{"minecraft:damage":404,"minecraft:enchantments":{"minecraft:protection":1}},count:1,id:"minecraft:diamond_boots"}}' from field 'equipment': Item must not be minecraft:air missed input: {feet:{components:{"minecraft:custom_model_data":{strings:["1"]},"minecraft:damage":5,"minecraft:enchantments":{"minecraft:mending":1,"minecraft:protection":4},"minecraft:glider":{},"minecraft:item_name":"Diamond Jetpack Boots","minecraft:rarity":"epic","minecraft:repair_cost":3},count:1,id:"minecraft:air"}}
+[23:28:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16355ms or 327 ticks behind
+[23:28:29] [Server thread/INFO]: SSSSSS lost connection: Disconnected
+[23:28:29] [Server thread/INFO]: SSSSSS left the game
+[23:28:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19576ms or 391 ticks behind
+[23:29:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16776ms or 335 ticks behind
+[23:29:34] [Server thread/INFO]: Named entity class_1548['Bloomer'/124926, l='ServerLevel[world]', x=-535.42, y=222.50, z=-183.18] died: Bloomer was slain by Mabe1y
+[23:29:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10521ms or 210 ticks behind
+[23:30:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11637ms or 232 ticks behind
+[23:30:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7560ms or 151 ticks behind
+[23:31:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10699ms or 213 ticks behind
