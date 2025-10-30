@@ -1,0 +1,125 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 2025-10-30 20:20:35
+Description: Exception ticking world
+
+java.lang.IllegalStateException: Chunk not there when requested
+	at knot//net.minecraft.class_3215.method_12121$mixinextras$wrapped$96(class_3215.java:1250)
+	at knot//net.minecraft.class_3215.mixinextras$bridge$method_12121$mixinextras$wrapped$96$97(class_3215.java)
+	at knot//net.minecraft.class_3215.wrapMethod$zzb000$c2me-base$instrumentGetChunk(class_3215.java:2221)
+	at knot//net.minecraft.class_3215.method_12121(class_3215.java)
+	at knot//net.minecraft.class_1937.method_8402(class_1937.java:204)
+	at knot//net.minecraft.class_1937.method_22342(class_1937.java:5623)
+	at knot//net.minecraft.class_5138.method_41032(class_5138.java:79)
+	at knot//net.minecraft.class_2794.method_12113(class_2794.java:429)
+	at knot//net.minecraft.class_1948.method_29950(class_1948.java:404)
+	at knot//net.minecraft.class_1948.method_8664(class_1948.java:392)
+	at knot//net.minecraft.class_1948.method_24930(class_1948.java:279)
+	at knot//net.minecraft.class_1948.method_8663(class_1948.java:226)
+	at knot//net.minecraft.class_1948.method_27821(class_1948.java:214)
+	at knot//net.minecraft.class_3215.method_67502(class_3215.java:426)
+	at knot//net.minecraft.class_3215.method_61265(class_3215.java:400)
+	at knot//net.minecraft.class_3215.method_14161(class_3215.java:350)
+	at knot//net.minecraft.class_3215.method_12127(class_3215.java:327)
+	at knot//net.minecraft.class_3218.method_18765(class_3218.java:362)
+	at knot//net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1138)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:1021)
+	at knot//net.minecraft.class_3176.method_3748(class_3176.java:321)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:775)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:297)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at knot//net.minecraft.class_3215.method_12121$mixinextras$wrapped$96(class_3215.java:1250)
+	at knot//net.minecraft.class_3215.mixinextras$bridge$method_12121$mixinextras$wrapped$96$97(class_3215.java)
+	at knot//net.minecraft.class_3215.wrapMethod$zzb000$c2me-base$instrumentGetChunk(class_3215.java:2221)
+	at knot//net.minecraft.class_3215.method_12121(class_3215.java)
+	at knot//net.minecraft.class_1937.method_8402(class_1937.java:204)
+	at knot//net.minecraft.class_1937.method_22342(class_1937.java:5623)
+	at knot//net.minecraft.class_5138.method_41032(class_5138.java:79)
+	at knot//net.minecraft.class_2794.method_12113(class_2794.java:429)
+	at knot//net.minecraft.class_1948.method_29950(class_1948.java:404)
+	at knot//net.minecraft.class_1948.method_8664(class_1948.java:392)
+	at knot//net.minecraft.class_1948.method_24930(class_1948.java:279)
+	at knot//net.minecraft.class_1948.method_8663(class_1948.java:226)
+	at knot//net.minecraft.class_1948.method_27821(class_1948.java:214)
+	at knot//net.minecraft.class_3215.method_67502(class_3215.java:426)
+	at knot//net.minecraft.class_3215.method_61265(class_3215.java:400)
+	at knot//net.minecraft.class_3215.method_14161(class_3215.java:350)
+	at knot//net.minecraft.class_3215.method_12127(class_3215.java:327)
+
+-- Affected level --
+Details:
+	All players: 1 total; class_3222{name=C_Nes, id=6146, pos=(-15.868319206969732, 61.024424088213685, -8.997140089606681), mode=SURVIVAL, permission=0}
+	Chunk stats: 1670, 361
+	Level dimension: minecraft:the_nether
+	Derived: true
+	Level spawn location: World: (0,66,0), Section: (at 0,2,0 in 0,4,0; chunk contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 4446915 game time, 6023655 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Commands: false
+	Level weather: Rain time: 48459 (now: false), thunder time: 16632 (now: false)
+	Known server brands: fabric
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 289
+Stacktrace:
+	at knot//net.minecraft.class_3218.method_8538(class_3218.java:1840)
+	at knot//net.minecraft.server.MinecraftServer.method_3813(MinecraftServer.java:1141)
+	at knot//net.minecraft.server.MinecraftServer.method_3748(MinecraftServer.java:1021)
+	at knot//net.minecraft.class_3176.method_3748(class_3176.java:321)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:775)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:297)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.10
+	Minecraft Version ID: 1.21.10
+	Operating System: Linux (amd64) version 6.6.87.2-microsoft-standard-WSL2
+	Java Version: 21.0.8, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 3539020072 bytes (3375 MiB) / 6442450944 bytes (6144 MiB) up to 6442450944 bytes (6144 MiB)
+	CPUs: 3
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 165 Stepping 3
+	Microarchitecture: Comet Lake
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 8
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 12067.11
+	Virtual memory used (MiB): 6301.44
+	Swap memory total (MiB): 4096.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 965702.94, total: 1031018.44
+	Space in storage for workdir (MiB): available: 77250.19, total: 544269.69
+	JVM Flags: 2 total; -Xmx6G -Xms6G
+	Debug Flags: 0 total; 
+	Server Running: true
+	Player Count: 2 / 8; [class_3222['Mabe1y'/1541, l='ServerLevel[world]', x=-535.38, y=220.00, z=-188.30], class_3222['C_Nes'/6146, l='ServerLevel[world]', x=-15.87, y=61.02, z=-9.00]]
+	Active Data Packs: vanilla, file/ArwensFurniture2_1.2.0_Datapack.zip, file/CallYourHappyGhast-[1.21.6+]-v1.0.2.zip (incompatible), file/Dungeons and Taverns v5.0.2.zip, file/Experience Book v1.3.0 [1.21.5-1.21.6].zip (incompatible), file/Ice Castle 1.21.10.zip, file/Jetpack Boots [v1.6].zip, file/Katters Structures.zip (incompatible), file/MobCaptains-v3.4.0.zip, file/Shield Progression.zip (incompatible), file/Smelting Enchantment v1.0.5 [1.21.9-1.21.10].zip, file/Stellarity-5.1.1.zip (incompatible), file/Training_Dummy-Datapack-v1.1.3.zip (incompatible), file/battle_towers-1.3.0-1.21.zip (incompatible), file/daycounter-1.21.10-start-from-0.zip, file/infinity-cave-0.86.1.zip, file/mm-data-1.3.0.zip, file/more_mobs-v1.5.7-mc1.14-1.21.9-datapack.zip, file/nice_mobs_v2-1.zip, file/pk_items_filter_V.3.2.4_mc_1.21.9.zip, file/tru.e-ending-1.1.4b.zip, file/veinminer-enchantment-1.2.6.zip, file/vr_typewriter_daycounter_v1.zip, file/Health-2.0.0.zip, file/Effect Gems - Data V1.3.3.zip, file/Stellarity-5.1.2.zip
+	Available Data Packs: file/ArwensFurniture2_1.2.0_Datapack.zip, file/CallYourHappyGhast-[1.21.6+]-v1.0.2.zip (incompatible), file/Dungeons and Taverns v5.0.2.zip, file/Effect Gems - Data V1.3.3.zip, file/Experience Book v1.3.0 [1.21.5-1.21.6].zip (incompatible), file/Health-2.0.0.zip, file/Ice Castle 1.21.10.zip, file/Jetpack Boots [v1.6].zip, file/Katters Structures.zip (incompatible), file/MobCaptains-v3.4.0.zip, file/Shield Progression.zip (incompatible), file/Smelting Enchantment v1.0.5 [1.21.9-1.21.10].zip, file/Stellarity-5.1.1.zip (incompatible), file/Stellarity-5.1.2.zip, file/Training_Dummy-Datapack-v1.1.3.zip (incompatible), file/battle_towers-1.3.0-1.21.zip (incompatible), file/daycounter-1.21.10-start-from-0.zip, file/infinity-cave-0.86.1.zip, file/mm-data-1.3.0.zip, file/more_mobs-v1.5.7-mc1.14-1.21.9-datapack.zip, file/nice_mobs_v2-1.zip, file/pk_items_filter_V.3.2.4_mc_1.21.9.zip, file/tru.e-ending-1.1.4b.zip, file/veinminer-enchantment-1.2.6.zip, file/vr_typewriter_daycounter_v1.zip, minecart_improvements, redstone_experiments, trade_rebalance, vanilla
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Experimental
+	World Seed: -7614701837270874452
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
