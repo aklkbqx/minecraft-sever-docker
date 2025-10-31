@@ -1,534 +1,154 @@
-[00:00:03] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
-class_1590['Zombified Piglin'/5371, l='ServerLevel[world]', x=-43.50, y=58.00, z=-77.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
-[00:02:15] [Server thread/INFO]: C_Nes has made the advancement [A Seedy Place]
-[00:11:13] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
-class_1590['Zombified Piglin'/12186, l='ServerLevel[world]', x=-8.50, y=52.00, z=-26.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
-[00:23:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2218ms or 44 ticks behind
-[00:25:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2079ms or 41 ticks behind
-[00:28:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2077ms or 41 ticks behind
-[00:28:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5409ms or 108 ticks behind
-[00:29:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
-[00:29:13] [Server thread/INFO]: AkalakKruaboon[/172.20.0.1:37924] logged in with entity id 17557 at (-503.30000001192093, 65.0, -386.69999998807907)
-[00:29:13] [Server thread/INFO]: AkalakKruaboon joined the game
-[00:29:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8144ms or 162 ticks behind
-[00:30:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2096ms or 41 ticks behind
-[00:30:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2263ms or 45 ticks behind
-[00:30:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[00:31:01] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> เข้ามา
-[00:31:20] [Server thread/INFO]: [Not Secure] <C_Nes> เข้าไปมึงก็ไม่เล่นอะ
-[00:31:27] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> เล่นๆ
-[00:31:30] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> ไม่ทำแล้ว
-[00:31:34] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> ทำไม่ได้ละ
-[00:31:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[00:32:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[00:33:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[00:35:12] [Server thread/INFO]: Mabe1y[/172.20.0.1:60950] logged in with entity id 20408 at (-502.80651380484863, 71.5, -366.1865675440204)
-[00:35:12] [Server thread/INFO]: Mabe1y joined the game
-[00:35:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[00:35:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2341ms or 46 ticks behind
-[00:36:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[00:37:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[00:37:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3025ms or 60 ticks behind
-[00:37:33] [Server thread/INFO]: Mabe1y has made the advancement [advancements.stellarity.kill_large_phantom]
-[00:37:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[00:38:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[00:38:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2592ms or 51 ticks behind
-[00:38:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3083ms or 61 ticks behind
-[00:39:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2125ms or 42 ticks behind
-[00:39:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[00:39:36] [Server thread/INFO]: AkalakKruaboon has made the advancement [advancements.stellarity.kill_large_phantom]
-[00:39:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2934ms or 58 ticks behind
-[00:39:47] [Server thread/INFO]: Named entity class_1548['Bloomer'/21732, l='ServerLevel[world]', x=-536.31, y=222.50, z=-183.72] died: Bloomer was slain by C_Nes
-[00:39:48] [Server thread/INFO]: Mabe1y lost connection: Disconnected
-[00:39:48] [Server thread/INFO]: Mabe1y left the game
-[00:39:52] [Server thread/INFO]: C_Nes lost connection: Disconnected
-[00:39:52] [Server thread/INFO]: C_Nes left the game
-[00:40:07] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> zzzzz
-[00:40:08] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> zzzz
-[00:40:10] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> zzzzz
-[00:40:11] [Server thread/INFO]: [Not Secure] <AkalakKruaboon> zzzzz
-[00:40:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2190ms or 43 ticks behind
-[00:40:38] [Server thread/INFO]: C_Nes[/172.20.0.1:51062] logged in with entity id 23459 at (-536.2169318820265, 220.0, -186.93777102647547)
-[00:40:38] [Server thread/INFO]: C_Nes joined the game
-[00:40:49] [Server thread/INFO]: Mabe1y[/172.20.0.1:45090] logged in with entity id 23636 at (-584.2234586207938, 63.0, -294.66498066852375)
-[00:40:49] [Server thread/INFO]: Mabe1y joined the game
-[00:40:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2087ms or 41 ticks behind
-[00:41:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2868ms or 57 ticks behind
-[00:41:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3089ms or 61 ticks behind
-[00:41:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3441ms or 68 ticks behind
-[00:42:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3172ms or 63 ticks behind
-[00:42:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3185ms or 63 ticks behind
-[00:42:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3122ms or 62 ticks behind
-[00:43:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4923ms or 98 ticks behind
-[00:43:15] [Server thread/WARN]: C_Nes moved too quickly! 0.0,-17.89543915182216,0.0
-[00:43:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4176ms or 83 ticks behind
-[00:43:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3188ms or 63 ticks behind
-[00:43:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2514ms or 50 ticks behind
-[00:44:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[00:44:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[00:45:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4030ms or 80 ticks behind
-[00:45:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7122ms or 142 ticks behind
-[00:45:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-498, y=64, z=-330} class_2338{x=-497, y=64, z=-331}
-[00:45:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4091ms or 81 ticks behind
-[00:46:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5343ms or 106 ticks behind
-[00:46:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5310ms or 106 ticks behind
-[00:46:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3658ms or 73 ticks behind
-[00:47:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4770ms or 95 ticks behind
-[00:47:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3184ms or 63 ticks behind
-[00:47:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4264ms or 85 ticks behind
-[00:47:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4618ms or 92 ticks behind
-[00:48:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2848ms or 56 ticks behind
-[00:48:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2076ms or 41 ticks behind
-[00:48:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2913ms or 58 ticks behind
-[00:48:57] [Server thread/INFO]: Mabe1y has made the advancement [Diamonds!]
-[00:49:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2719ms or 54 ticks behind
-[00:49:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
-[00:50:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
-[00:50:15] [Server thread/WARN]: Mabe1y moved too quickly! 0.019391975322946564,10.130838489012291,-0.0438014803001181
-[00:50:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6161ms or 123 ticks behind
-[00:50:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4943ms or 98 ticks behind
-[00:51:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6383ms or 127 ticks behind
-[00:51:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4936ms or 98 ticks behind
-[00:52:11] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/29832, l='ServerLevel[world]', x=-535.30, y=222.50, z=-183.14] died: Gem Zombie was slain by Mabe1y
-[00:53:41] [Server thread/INFO]: Named entity class_1548['Bloomer'/30871, l='ServerLevel[world]', x=-536.72, y=223.25, z=-183.51] died: Bloomer was slain by Mabe1y
-[00:54:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[00:54:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2268ms or 45 ticks behind
-[00:55:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[00:55:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3479ms or 69 ticks behind
-[00:55:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[00:56:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2851ms or 57 ticks behind
-[00:56:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-55, y=61, z=-37} class_2338{x=-54, y=64, z=-34}
-[00:56:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
-[00:56:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
-[00:57:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3357ms or 67 ticks behind
-[00:57:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2435ms or 48 ticks behind
-[00:57:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2203ms or 44 ticks behind
-[00:58:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[00:58:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
-[00:58:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2955ms or 59 ticks behind
-[00:59:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2150ms or 43 ticks behind
-[00:59:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[00:59:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2095ms or 41 ticks behind
-[00:59:54] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
-class_1590['Zombified Piglin'/36240, l='ServerLevel[world]', x=12.50, y=49.00, z=-72.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
-[00:59:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[01:00:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4933ms or 98 ticks behind
-[01:00:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[01:00:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
-[01:01:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[01:01:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
-[01:01:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[01:02:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2107ms or 42 ticks behind
-[01:02:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
-[01:02:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3215ms or 64 ticks behind
-[01:03:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4514ms or 90 ticks behind
-[01:03:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4586ms or 91 ticks behind
-[01:03:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6945ms or 138 ticks behind
-[01:04:07] [Server thread/INFO]: Mabe1y has completed the challenge [Hot Tourist Destinations]
-[01:04:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7272ms or 145 ticks behind
-[01:04:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10306ms or 206 ticks behind
-[01:05:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9792ms or 195 ticks behind
-[01:05:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11736ms or 234 ticks behind
-[01:05:46] [Server thread/WARN]: C_Nes moved too quickly! 8.312203671640987,-0.5013359791121417,-5.718831706308265
-[01:05:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6587ms or 131 ticks behind
-[01:06:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5476ms or 109 ticks behind
-[01:06:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5209ms or 104 ticks behind
-[01:06:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4704ms or 94 ticks behind
-[01:07:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3887ms or 77 ticks behind
-[01:07:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3038ms or 60 ticks behind
-[01:07:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4057ms or 81 ticks behind
-[01:08:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3379ms or 67 ticks behind
-[01:08:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3409ms or 68 ticks behind
-[01:08:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[01:09:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-469, y=62, z=-308} class_2338{x=-470, y=62, z=-308}
-[01:10:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[01:10:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4345ms or 86 ticks behind
-[01:10:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2107ms or 42 ticks behind
-[01:11:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2182ms or 43 ticks behind
-[01:11:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2135ms or 42 ticks behind
-[01:12:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2068ms or 41 ticks behind
-[01:12:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[01:12:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[01:13:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2158ms or 43 ticks behind
-[01:13:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2115ms or 42 ticks behind
-[01:14:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[01:14:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2772ms or 55 ticks behind
-[01:14:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2374ms or 47 ticks behind
-[01:15:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
-[01:15:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6829ms or 136 ticks behind
-[01:15:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[01:16:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2962ms or 59 ticks behind
-[01:16:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2528ms or 50 ticks behind
-[01:17:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[01:17:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[01:18:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[01:18:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2958ms or 59 ticks behind
-[01:18:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2627ms or 52 ticks behind
-[01:18:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[01:19:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
-[01:19:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3244ms or 64 ticks behind
-[01:20:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3280ms or 65 ticks behind
-[01:20:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7205ms or 144 ticks behind
-[01:20:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3176ms or 63 ticks behind
-[01:21:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
-[01:21:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[01:21:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[01:22:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2034ms or 40 ticks behind
-[01:22:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[01:23:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[01:23:12] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/49933, l='ServerLevel[world]', x=-536.67, y=222.50, z=-182.30] died: Gem Zombie was burned to a crisp while fighting C_Nes
-[01:23:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
-[01:23:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2795ms or 55 ticks behind
-[01:24:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[01:24:43] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/50311, l='ServerLevel[world]', x=-535.58, y=222.50, z=-182.92] died: Gem Zombie was slain by C_Nes
-[01:24:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[01:25:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2371ms or 47 ticks behind
-[01:25:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6065ms or 121 ticks behind
-[01:25:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2827ms or 56 ticks behind
-[01:26:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[01:26:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5781ms or 115 ticks behind
-[01:26:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7095ms or 141 ticks behind
-[01:27:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5800ms or 116 ticks behind
-[01:27:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4058ms or 81 ticks behind
-[01:27:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8680ms or 173 ticks behind
-[01:28:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8550ms or 171 ticks behind
-[01:28:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7746ms or 154 ticks behind
-[01:28:44] [Server thread/WARN]: C_Nes moved too quickly! 0.0,-11.026982712340185,0.0
-[01:28:47] [Server thread/WARN]: C_Nes moved too quickly! 0.0,-15.694420234584584,0.1469323066298216
-[01:29:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8466ms or 169 ticks behind
-[01:29:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7200ms or 144 ticks behind
-[01:29:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8560ms or 171 ticks behind
-[01:30:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12414ms or 248 ticks behind
-[01:30:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9194ms or 183 ticks behind
-[01:31:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8717ms or 174 ticks behind
-[01:31:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8110ms or 162 ticks behind
-[01:31:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10960ms or 219 ticks behind
-[01:32:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9587ms or 191 ticks behind
-[01:32:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11798ms or 235 ticks behind
-[01:33:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8577ms or 171 ticks behind
-[01:33:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7941ms or 158 ticks behind
-[01:33:48] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
-class_1590['Zombified Piglin'/55871, l='ServerLevel[world]', x=-21.50, y=65.00, z=-46.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
-[01:33:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6626ms or 132 ticks behind
-[01:34:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5852ms or 117 ticks behind
-[01:34:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5556ms or 111 ticks behind
-[01:34:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7122ms or 142 ticks behind
-[01:35:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11754ms or 235 ticks behind
-[01:35:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7407ms or 148 ticks behind
-[01:36:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8478ms or 169 ticks behind
-[01:36:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7227ms or 144 ticks behind
-[01:36:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8049ms or 160 ticks behind
-[01:37:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8954ms or 179 ticks behind
-[01:37:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8434ms or 168 ticks behind
-[01:38:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8520ms or 170 ticks behind
-[01:38:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9395ms or 187 ticks behind
-[01:38:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8460ms or 169 ticks behind
-[01:39:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8828ms or 176 ticks behind
-[01:39:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7261ms or 145 ticks behind
-[01:40:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7845ms or 156 ticks behind
-[01:40:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12981ms or 259 ticks behind
-[01:40:33] [Server thread/INFO]: AkalakKruaboon has made the advancement [Getting an Upgrade]
-[01:40:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7508ms or 150 ticks behind
-[01:41:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8338ms or 166 ticks behind
-[01:41:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10193ms or 203 ticks behind
-[01:42:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8904ms or 178 ticks behind
-[01:42:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9546ms or 190 ticks behind
-[01:42:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8948ms or 178 ticks behind
-[01:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9912ms or 198 ticks behind
-[01:43:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8216ms or 164 ticks behind
-[01:44:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4402ms or 88 ticks behind
-[01:44:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2455ms or 49 ticks behind
-[01:44:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3840ms or 76 ticks behind
-[01:45:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2046ms or 40 ticks behind
-[01:45:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5735ms or 114 ticks behind
-[01:45:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4942ms or 98 ticks behind
-[01:46:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4907ms or 98 ticks behind
-[01:46:29] [Server thread/INFO]: Mabe1y lost connection: Disconnected
-[01:46:29] [Server thread/INFO]: Mabe1y left the game
-[01:46:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3790ms or 75 ticks behind
-[01:47:45] [Server thread/INFO]: Mabe1y[/172.20.0.1:50370] logged in with entity id 67776 at (-395.93605316577407, 64.0, 3706.0158687654775)
-[01:47:45] [Server thread/INFO]: Mabe1y joined the game
-[01:48:11] [Server thread/INFO]: AkalakKruaboon has made the advancement [Butterfly Effect]
-[01:49:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2193ms or 43 ticks behind
-[01:50:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10137ms or 202 ticks behind
-[01:50:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10075ms or 201 ticks behind
-[01:51:01] [Server thread/INFO]: Named entity class_1628['{"text":"Grumm","color":"black","obfuscated":true}'/73988, l='ServerLevel[world]', x=-767.88, y=65.10, z=-344.30] died: {"text":"Grumm","color":"black","obfuscated":true} was slain by AkalakKruaboon
-[01:51:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10100ms or 202 ticks behind
-[01:51:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10299ms or 205 ticks behind
-[01:51:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11142ms or 222 ticks behind
-[01:52:03] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
-class_1590['Zombified Piglin'/75518, l='ServerLevel[world]', x=-23.50, y=59.00, z=-83.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
-[01:52:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8881ms or 177 ticks behind
-[01:52:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7059ms or 141 ticks behind
-[01:53:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5559ms or 111 ticks behind
-[01:53:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4727ms or 94 ticks behind
-[01:53:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5587ms or 111 ticks behind
-[01:54:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4506ms or 90 ticks behind
-[01:54:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6878ms or 137 ticks behind
-[01:54:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10116ms or 202 ticks behind
-[01:55:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2066ms or 41 ticks behind
-[01:57:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[01:58:02] [Server thread/INFO]: Named entity class_1548['Bloomer'/82106, l='ServerLevel[world]', x=-758.50, y=165.26, z=-335.28] died: Bloomer drowned
-[01:58:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[01:58:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2055ms or 41 ticks behind
-[01:59:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2219ms or 44 ticks behind
-[01:59:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
-[01:59:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4682ms or 93 ticks behind
-[02:00:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6531ms or 130 ticks behind
-[02:00:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9279ms or 185 ticks behind
-[02:00:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5351ms or 107 ticks behind
-[02:01:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3302ms or 66 ticks behind
-[02:01:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13798ms or 275 ticks behind
-[02:02:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13602ms or 272 ticks behind
-[02:02:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5361ms or 107 ticks behind
-[02:02:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4355ms or 87 ticks behind
-[02:03:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3798ms or 75 ticks behind
-[02:03:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4451ms or 89 ticks behind
-[02:03:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13281ms or 265 ticks behind
-[02:04:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7272ms or 145 ticks behind
-[02:04:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4583ms or 91 ticks behind
-[02:04:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5218ms or 104 ticks behind
-[02:05:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16879ms or 337 ticks behind
-[02:05:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9471ms or 189 ticks behind
-[02:06:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9173ms or 183 ticks behind
-[02:06:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6881ms or 137 ticks behind
-[02:07:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4696ms or 93 ticks behind
-[02:07:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12448ms or 248 ticks behind
-[02:07:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10462ms or 209 ticks behind
-[02:08:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10116ms or 202 ticks behind
-[02:08:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4328ms or 86 ticks behind
-[02:08:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4082ms or 81 ticks behind
-[02:09:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5206ms or 104 ticks behind
-[02:09:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8156ms or 163 ticks behind
-[02:10:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5662ms or 113 ticks behind
-[02:10:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13095ms or 261 ticks behind
-[02:10:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10211ms or 204 ticks behind
-[02:11:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6734ms or 134 ticks behind
-[02:11:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6724ms or 134 ticks behind
-[02:11:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4532ms or 90 ticks behind
-[02:12:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3071ms or 61 ticks behind
-[02:12:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2897ms or 57 ticks behind
-[02:12:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4512ms or 90 ticks behind
-[02:13:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7012ms or 140 ticks behind
-[02:13:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9086ms or 181 ticks behind
-[02:14:03] [Server thread/WARN]: Mabe1y moved too quickly! 0.2646982998911085,-14.321690065263297,-0.05892945135246919
-[02:14:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16005ms or 320 ticks behind
-[02:14:23] [Server thread/INFO]: Mabe1y has reached the goal [Sky's the Limit]
-[02:14:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11425ms or 228 ticks behind
-[02:15:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11826ms or 236 ticks behind
-[02:15:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14578ms or 291 ticks behind
-[02:15:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6803ms or 136 ticks behind
-[02:16:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3778ms or 75 ticks behind
-[02:16:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3179ms or 63 ticks behind
-[02:16:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-510, y=72, z=-382} class_2338{x=-511, y=67, z=-355}
-[02:16:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7289ms or 145 ticks behind
-[02:17:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13379ms or 267 ticks behind
-[02:17:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15300ms or 306 ticks behind
-[02:18:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9290ms or 185 ticks behind
-[02:18:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7970ms or 159 ticks behind
-[02:18:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3682ms or 73 ticks behind
-[02:19:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12872ms or 257 ticks behind
-[02:19:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5292ms or 105 ticks behind
-[02:20:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6418ms or 128 ticks behind
-[02:20:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13429ms or 268 ticks behind
-[02:20:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7813ms or 156 ticks behind
-[02:21:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8351ms or 167 ticks behind
-[02:21:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7847ms or 156 ticks behind
-[02:22:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9630ms or 192 ticks behind
-[02:22:18] [Server thread/INFO]: AkalakKruaboon has made the advancement [Diamonds!]
-[02:22:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6872ms or 137 ticks behind
-[02:22:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6923ms or 138 ticks behind
-[02:23:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7324ms or 146 ticks behind
-[02:23:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7044ms or 140 ticks behind
-[02:24:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9000ms or 180 ticks behind
-[02:24:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9842ms or 196 ticks behind
-[02:24:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10638ms or 212 ticks behind
-[02:25:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15796ms or 315 ticks behind
-[02:25:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11723ms or 234 ticks behind
-[02:26:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11859ms or 237 ticks behind
-[02:26:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11823ms or 236 ticks behind
-[02:27:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9196ms or 183 ticks behind
-[02:27:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10234ms or 204 ticks behind
-[02:27:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5537ms or 110 ticks behind
-[02:28:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7488ms or 149 ticks behind
-[02:28:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7163ms or 143 ticks behind
-[02:28:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6725ms or 134 ticks behind
-[02:29:03] [Server thread/WARN]: [net.minecraft.class_3169] Serialization errors:
-class_1590['Zombified Piglin'/99022, l='ServerLevel[world]', x=-13.50, y=55.00, z=-82.50]: Failed to decode value '{chest:0.01d,feet:0.01d,head:0.01d,legs:0.01d,mainhand:0.01d,offhand:-327.67d}' from field 'drop_chances': Value must be non-negative: -327.67 missed input: {offhand:-327.67d}
-[02:29:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10217ms or 204 ticks behind
-[02:29:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16667ms or 333 ticks behind
-[02:30:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17141ms or 342 ticks behind
-[02:30:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11450ms or 229 ticks behind
-[02:31:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8272ms or 165 ticks behind
-[02:31:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10242ms or 204 ticks behind
-[02:32:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6865ms or 137 ticks behind
-[02:32:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7657ms or 153 ticks behind
-[02:32:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9034ms or 180 ticks behind
-[02:33:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6028ms or 120 ticks behind
-[02:33:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10157ms or 203 ticks behind
-[02:34:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8460ms or 169 ticks behind
-[02:34:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6415ms or 128 ticks behind
-[02:34:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7764ms or 155 ticks behind
-[02:35:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9113ms or 182 ticks behind
-[02:35:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11820ms or 236 ticks behind
-[02:36:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9657ms or 193 ticks behind
-[02:36:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9779ms or 195 ticks behind
-[02:36:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11094ms or 221 ticks behind
-[02:37:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10512ms or 210 ticks behind
-[02:37:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9256ms or 185 ticks behind
-[02:38:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10486ms or 209 ticks behind
-[02:38:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 19368ms or 387 ticks behind
-[02:38:50] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/106340, l='ServerLevel[world]', x=-639.53, y=7.00, z=-296.39] died: Gem Zombie was slain by C_Nes
-[02:39:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11219ms or 224 ticks behind
-[02:39:11] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/106339, l='ServerLevel[world]', x=-636.97, y=7.00, z=-305.11] died: Gem Zombie was killed while trying to hurt C_Nes
-[02:39:11] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/107680, l='ServerLevel[world]', x=-505.29, y=19.00, z=209.30] died: Gem Zombie was blown up by Creeper
-[02:39:20] [Server thread/INFO]: Mabe1y lost connection: Disconnected
-[02:39:20] [Server thread/INFO]: Mabe1y left the game
-[02:39:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6644ms or 132 ticks behind
-[02:40:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[02:40:23] [Server thread/INFO]: C_Nes has made the advancement [Perplexing Stuff Init?]
-[02:40:23] [Server thread/INFO]: Named entity class_7298['Common Corrupt Allay'/106349, l='ServerLevel[world]', x=-635.50, y=-6.57, z=-296.52] died: Common Corrupt Allay was slain by C_Nes
-[02:40:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8226ms or 164 ticks behind
-[02:40:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4038ms or 80 ticks behind
-[02:41:20] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/108523, l='ServerLevel[world]', x=-535.30, y=222.50, z=-182.60] died: Gem Zombie was slain by AkalakKruaboon
-[02:41:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
-[02:42:35] [Server thread/INFO]: Named entity class_1548['Bloomer'/110458, l='ServerLevel[world]', x=-536.15, y=222.50, z=-183.26] died: Bloomer was slain by AkalakKruaboon
-[02:42:46] [Server thread/INFO]: Mabe1y[/172.20.0.1:51924] logged in with entity id 112307 at (-505.82960511301974, 21.79673560066869, 209.34126519495433)
-[02:42:46] [Server thread/INFO]: Mabe1y joined the game
-[02:42:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[02:43:08] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/110429, l='ServerLevel[world]', x=-535.70, y=222.50, z=-182.30] died: Gem Zombie was slain by AkalakKruaboon
-[02:43:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3594ms or 71 ticks behind
-[02:43:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5197ms or 103 ticks behind
-[02:43:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7140ms or 142 ticks behind
-[02:44:00] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/113529, l='ServerLevel[world]', x=-494.96, y=-7.00, z=268.55] died: Gem Zombie was shot by Mabe1y
-[02:44:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11688ms or 233 ticks behind
-[02:44:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9277ms or 185 ticks behind
-[02:45:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7740ms or 154 ticks behind
-[02:45:16] [Server thread/WARN]: C_Nes moved too quickly! 5.6583931531671965,-0.45245147807597164,-8.509188013352798
-[02:45:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12573ms or 251 ticks behind
-[02:45:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8435ms or 168 ticks behind
-[02:46:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9086ms or 181 ticks behind
-[02:46:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10414ms or 208 ticks behind
-[02:46:59] [Server thread/WARN]: AkalakKruaboon moved too quickly! 3.1892236686010733,-13.849629808440767,-11.960036899779254
-[02:47:03] [Server thread/WARN]: AkalakKruaboon moved too quickly! -5.5086187657339565,-2.1024404153803573,-17.84228392421295
-[02:47:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13147ms or 262 ticks behind
-[02:47:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14312ms or 286 ticks behind
-[02:48:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11119ms or 222 ticks behind
-[02:48:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13015ms or 260 ticks behind
-[02:49:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11254ms or 225 ticks behind
-[02:49:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10990ms or 219 ticks behind
-[02:49:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10153ms or 203 ticks behind
-[02:50:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15921ms or 318 ticks behind
-[02:50:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11459ms or 229 ticks behind
-[02:51:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11375ms or 227 ticks behind
-[02:51:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10698ms or 213 ticks behind
-[02:52:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13278ms or 265 ticks behind
-[02:52:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9564ms or 191 ticks behind
-[02:53:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11680ms or 233 ticks behind
-[02:53:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10522ms or 210 ticks behind
-[02:53:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12582ms or 251 ticks behind
-[02:54:21] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.729980740848987,-1.7511728281233871,-1.5715339372099493
-[02:54:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13176ms or 263 ticks behind
-[02:54:26] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.311644341711485,-0.0048260189052768965,-0.14922367161449301
-[02:54:30] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.04546491206986,-1.7932023829304455,-0.42983748623174733
-[02:54:35] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.928766716459904,-0.2691825679217743,-0.2083812303915238
-[02:54:39] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.034112360130393,0.7725503250859447,-0.33546447953943925
-[02:54:45] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.670666862773942,0.10976480144030631,-1.181200388955972
-[02:54:49] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.4477182541375,-0.7525642651080915,-1.0303810517349916
-[02:54:53] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.620734155965465,-2.049698166392517,-0.7563046502155544
-[02:54:57] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.27203559477084,0.33540472946961586,-0.3398902161863475
-[02:54:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18638ms or 372 ticks behind
-[02:55:05] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.97578118152228,2.6539908926857123,0.08617101642039415
-[02:55:14] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.377100603409644,-2.7342405177659543,0.40277916260515667
-[02:55:26] [Server thread/WARN]: AkalakKruaboon moved too quickly! -14.436948795083026,11.674586022341032,0.23148578935126807
-[02:55:26] [Server thread/WARN]: AkalakKruaboon moved too quickly! -13.585947205578577,10.743984420395236,0.2152553566367601
-[02:55:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 38349ms or 766 ticks behind
-[02:55:52] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.31248569701711,-2.189673968127437,-1.381827122338393
-[02:56:00] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.168032141129515,5.852625908404548,-1.163828850975051
-[02:56:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17140ms or 342 ticks behind
-[02:56:46] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.63085373176341,3.9798418049884674,0.6000819728521947
-[02:56:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11051ms or 221 ticks behind
-[02:57:02] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.860401194407586,-1.1064248050885226,-0.613260114724028
-[02:57:06] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.446212047422478,-2.1223022629656043,-0.2827997602633445
-[02:57:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14027ms or 280 ticks behind
-[02:57:21] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.761768618539236,0.412262901979048,-0.27665596924111924
-[02:57:32] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.024696320800103,5.047127954903885,-1.842893326793103
-[02:57:37] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.85167175850961,-2.251741058382791,0.2221293650552525
-[02:57:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14895ms or 297 ticks behind
-[02:57:50] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.43220443806422,-2.226748260565742,0.32178179992195055
-[02:58:02] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.1111291446814,6.117280905432352,-0.6335143924750923
-[02:58:07] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.65726700256073,0.8124887111833914,-0.8303061521829136
-[02:58:09] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.29788456094957,-1.930523748453254,-0.7455510760511288
-[02:58:12] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.623762589879334,-1.3550298916545387,0.41636825830283897
-[02:58:18] [Server thread/WARN]: AkalakKruaboon moved too quickly! -11.099311860238686,14.584362648893972,-0.5045948443565749
-[02:58:22] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.78893415004677,-2.991479561717995,-1.0850985982241355
-[02:58:26] [Server thread/WARN]: AkalakKruaboon moved too quickly! -15.079782366033669,9.18075063751428,-0.3272283715309072
-[02:58:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24230ms or 484 ticks behind
-[02:58:33] [Server thread/WARN]: AkalakKruaboon moved too quickly! -15.428175778882178,9.130802917274195,-0.4083428816794594
-[02:58:43] [Server thread/WARN]: AkalakKruaboon moved too quickly! -12.455507634786954,13.48515256842245,0.1316616059210105
-[02:58:47] [Server thread/WARN]: AkalakKruaboon moved too quickly! -11.977021481152406,13.479599356084123,0.09043537332399865
-[02:58:51] [Server thread/WARN]: AkalakKruaboon moved too quickly! -13.525346016015646,12.028455239627874,-0.2899359638943224
-[02:58:56] [Server thread/WARN]: AkalakKruaboon moved too quickly! -12.127178115714287,13.215831265627912,0.055584008795278805
-[02:59:00] [Server thread/WARN]: AkalakKruaboon moved too quickly! -14.911111086639266,10.94528876650918,0.11150977871011492
-[02:59:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20909ms or 418 ticks behind
-[02:59:09] [Server thread/WARN]: AkalakKruaboon moved too quickly! -13.410383109006034,11.562132665305171,-0.7400534692734482
-[02:59:14] [Server thread/WARN]: AkalakKruaboon moved too quickly! -11.572503220614635,12.965925307495695,-0.2571020436380991
-[02:59:17] [Server thread/WARN]: AkalakKruaboon moved too quickly! -18.501759264583598,-3.11987411524683,0.008723760433724692
-[02:59:20] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-129, y=74, z=-118}
-[02:59:20] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-129, y=74, z=-116}
-[02:59:20] [c2me-worker-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-128, y=74, z=-118}
-[02:59:25] [Server thread/WARN]: AkalakKruaboon moved too quickly! 13.159499080868045,-1.530853312624572,12.500169687936193
-[02:59:29] [Server thread/WARN]: AkalakKruaboon moved too quickly! 16.788167295590938,5.264483232743601,4.483107718323197
-[02:59:34] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.534323347387726,-0.2093569825940449,4.3664116092458585
-[02:59:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20608ms or 412 ticks behind
-[02:59:42] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.779228132870685,-5.070085244034772,1.0488168349294256
-[02:59:58] [Server thread/WARN]: AkalakKruaboon moved too quickly! 11.505481624779804,-15.011632746022315,1.1182430811980453
-[03:00:02] [Server thread/WARN]: AkalakKruaboon moved too quickly! 2.195990624517435,-18.911313441063385,0.012780215494615277
-[03:00:06] [Server thread/WARN]: AkalakKruaboon moved too quickly! 9.790654044591975,-15.98915150362069,0.08212144729640158
-[03:00:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15996ms or 319 ticks behind
-[03:00:11] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.513920344446433,-3.680835986692614,0.2723091935661728
-[03:00:19] [Server thread/WARN]: AkalakKruaboon moved too quickly! 18.4264714522119,-0.4906608933698635,0.8487799874341704
-[03:00:24] [Server thread/WARN]: AkalakKruaboon moved too quickly! 18.07215524160165,0.9843519952071915,2.233390728610175
-[03:00:35] [Server thread/WARN]: AkalakKruaboon moved too quickly! 16.421214554014114,7.0033247108091246,2.651887410634629
-[03:00:40] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.304777792301138,4.7263903369918125,2.7945754085538397
-[03:00:44] [Server thread/WARN]: AkalakKruaboon moved too quickly! 13.640083621123722,-12.321760605075553,2.126818384021334
-[03:00:49] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.685349345577833,-2.5867030806451226,1.5798132675570287
-[03:00:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24917ms or 498 ticks behind
-[03:00:53] [Server thread/WARN]: AkalakKruaboon moved too quickly! 18.383351923861483,-1.6321541262835808,1.7945868764821853
-[03:01:01] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.748143065232398,-1.9536181795631364,1.4026786255015793
-[03:01:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10257ms or 205 ticks behind
-[03:01:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2312ms or 46 ticks behind
-[03:01:40] [Server thread/WARN]: AkalakKruaboon moved too quickly! 12.39372726302281,-14.70992932299913,-3.9435044754624187
-[03:01:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2313ms or 46 ticks behind
-[03:01:57] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.778584276227775,-2.011807239690839,0.006952742555938585
-[03:02:03] [Server thread/WARN]: AkalakKruaboon moved too quickly! 18.767642960051717,1.782508891075146,0.9565297510656023
-[03:02:03] [Server thread/WARN]: AkalakKruaboon moved too quickly! 17.24505179173184,1.622561347724691,0.8761693206575956
-[03:02:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6627ms or 132 ticks behind
-[03:02:19] [Server thread/WARN]: AkalakKruaboon moved too quickly! 16.877449180927215,-4.3246213853217625,4.079878874580402
-[03:02:32] [Server thread/WARN]: AkalakKruaboon moved too quickly! -17.323910926518806,-2.2456440870788583,3.208213688084129
-[03:02:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14686ms or 293 ticks behind
-[03:03:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12659ms or 253 ticks behind
-[03:03:16] [Server thread/WARN]: AkalakKruaboon moved too quickly! -2.218345381360564,12.023935236193964,13.861980011180663
-[03:03:20] [Server thread/WARN]: AkalakKruaboon moved too quickly! 0.20087364105506822,16.424770526521428,7.257816191076699
-[03:03:24] [Server thread/WARN]: Mabe1y moved too quickly! -9.391477950222566,7.271366119673004,13.472715894421867
-[03:03:27] [Server thread/WARN]: Mabe1y moved too quickly! 0.777785216639586,16.985632021840445,7.885494844276963
-[03:03:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8711ms or 174 ticks behind
-[03:03:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[03:04:09] [Server thread/INFO]: Named entity class_1642['Gem Zombie'/136964, l='ServerLevel[world]', x=-535.30, y=222.50, z=-183.55] died: Gem Zombie was slain by AkalakKruaboon
-[03:04:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6525ms or 130 ticks behind
-[03:04:28] [Server thread/INFO]: Mabe1y lost connection: Disconnected
-[03:04:28] [Server thread/INFO]: Mabe1y left the game
-[03:04:29] [Server thread/INFO]: Named entity class_1548['Bloomer'/137103, l='ServerLevel[world]', x=-541.60, y=246.00, z=-181.50] died: Bloomer suffocated in a wall
-[03:04:31] [Server thread/INFO]: AkalakKruaboon lost connection: Disconnected
-[03:04:31] [Server thread/INFO]: AkalakKruaboon left the game
-[03:04:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3501ms or 70 ticks behind
-[03:04:37] [Server thread/INFO]: C_Nes lost connection: Disconnected
-[03:04:37] [Server thread/INFO]: C_Nes left the game
-[03:05:01] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[03:05:01] [Server thread/INFO]: [Rcon: Stopping the server]
-[03:05:01] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[03:05:01] [Server thread/INFO]: Stopping server
-[03:05:01] [Server thread/INFO]: Saving players
-[03:05:01] [Server thread/INFO]: Saving worlds
-[03:05:01] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 11204 chunks to unload
-[03:05:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:06:16] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.17.3
+[19:06:17] [main/INFO]: Loading 35 mods:
+	- c2me 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-base 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-client-uncapvd 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-fixes-general-threading-issues 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-notickvd 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-allocs 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-chunkio 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-dfc 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-math 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-scheduling 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-worldgen-general 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-opts-worldgen-vanilla 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-rewrites-chunk-serializer 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-rewrites-chunk-system 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-rewrites-chunkio 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-server-utils 0.3.6+alpha.0.3+1.21.10
+	   |-- c2me-threading-lighting 0.3.6+alpha.0.3+1.21.10
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.12
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- fabricloader 0.17.3
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- java 21
+	- krypton 0.2.10
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- lithium 0.20.0+mc1.21.10
+	- minecraft 1.21.10
+[19:06:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:06:21] [main/INFO]: Compatibility level set to JAVA_16
+[19:06:21] [main/INFO]: Compatibility level set to JAVA_17
+[19:06:21] [main/INFO]: Compatibility level set to JAVA_21
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[19:06:21] [main/INFO]: Global Executor Parallelism: 2 configured, 2 evaluated, 2 default evaluated
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:06:21] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[19:06:21] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[19:06:22] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[19:06:22] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
+[19:06:22] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/base/event/ArrayBackedEvent (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/base/event/ArrayBackedEvent)
+[19:06:22] [main/WARN]: @Mixin target net.fabricmc.fabric.impl.base.event.ArrayBackedEvent was not found c2me-base.mixins.json:access.fapi.IArrayBackedEvent from mod c2me-base
+[19:06:22] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[19:06:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[19:06:32] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[19:06:32] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[19:06:32] [main/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[19:06:32] [main/WARN]: resource-pack-id missing, using default of 9d6f0777-7132-3092-93f4-395e95d36a45
+[19:06:32] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:06:34] [main/ERROR]: Couldn't load file/Katters Structures.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[19:06:34] [main/ERROR]: Couldn't load file/Shield Progression.zip pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[19:06:34] [main/ERROR]: Couldn't load file/Stellarity-5.1.1.zip pack metadata: Pack key supported_formats is deprecated starting from pack format 82. Remove supported_formats from your pack.mcmeta.
+[19:06:34] [main/ERROR]: Couldn't load file/Training_Dummy-Datapack-v1.1.3.zip pack metadata: Pack key supported_formats is deprecated starting from pack format 82. Remove supported_formats from your pack.mcmeta.
+[19:06:34] [main/INFO]: Found non-pack entry './world/datapacks/tree-cut', ignoring
+[19:06:34] [main/WARN]: Non [a-z0-9_.-] character in namespace .DS_Store in pack ./world/datapacks/Health-2.0.0.zip, ignoring
+[19:06:34] [main/WARN]: Non [a-z0-9_.-] character in namespace .DS_Store in pack ./world/datapacks/Health-2.0.0.zip, ignoring
+[19:06:46] [Worker-Main-2/ERROR]: Couldn't parse data file 'mm:entities/diamond' from 'mm:loot_table/entities/diamond.json': DataResult.Error['Failed to parse either. First: Failed to parse either. First: Not a number: {"min":1}; Second: Failed to parse either. First: Input does not contain a key [type]: MapLike[{"min":1}]; Second: No key max in MapLike[{"min":1}]; Second: Not a json array: {"function":"set_count","count":{"min":1}}': net.minecraft.class_52@6b6f3e39]
+[19:06:47] [Worker-Main-2/ERROR]: Couldn't parse data file 'mm:rando' from 'mm:loot_table/rando.json': DataResult.Error['Unknown element name:addition; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:random; No key id in MapLike[{"name":"random","attribute":"random","operation":"addition","slot":"mainhand","amount":{"type":"minecraft:uniform","min":-2147483648,"max":2147483647}}]': net.minecraft.class_52@588b34f]
+[19:06:47] [Worker-Main-2/WARN]: Found loot table element validation problem in {minecraft:blocks/pitcher_crop@minecraft:loot_table}.pools[1].entries[0]->{infinity_cave:custom_items/frostpale_plant@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
+[19:06:47] [Worker-Main-2/WARN]: Found loot table element validation problem in {effectgems:gem_zombie_gbz@minecraft:loot_table}.pools[1].entries[0]: Missing element apocalypse:zombie/zombie of type minecraft:loot_table
+[19:06:47] [Worker-Main-2/WARN]: Found loot table element validation problem in {infinity_cave:custom_items/frostpale_plant@minecraft:loot_table}.pools[0].entries[0]: Unreachable entry!
+[19:06:53] [main/INFO]: Loaded 1842 recipes
+[19:06:53] [main/INFO]: Loaded 2137 advancements
+[19:06:54] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[19:06:54] [Server thread/INFO]: Loading properties
+[19:06:54] [Server thread/INFO]: Default game type: SURVIVAL
+[19:06:54] [Server thread/INFO]: Generating keypair
+[19:06:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:06:54] [Server thread/INFO]: Using epoll channel type
+[19:06:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:06:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:06:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:06:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:06:54] [Server thread/INFO]: Preparing level "world"
+[19:06:54] [Server thread/INFO]: Enforcing safe world random access
+[19:06:55] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 596.4 ms
+[19:06:55] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[19:06:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 12.44 ms
+[19:06:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 351.4 ms
+[19:06:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 29.39 ms
+[19:06:56] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:06:56] [Server thread/INFO]: Preparing spawn area: 100%
+[19:06:56] [Server thread/INFO]: Time elapsed: 13 ms
+[19:06:56] [Server thread/INFO]: Done (2.313s)! For help, type "help"
+[19:06:56] [Server thread/INFO]: Starting remote control listener
+[19:06:56] [Server thread/INFO]: Thread RCON Listener started
+[19:06:56] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[19:07:02] [Server thread/INFO]: [Not Secure] [Server] Veinminer-Enchantment Loaded
+[19:07:02] [Server thread/INFO]: [Not Secure] [Server] Please note: This is an addon, Veinminer needs to be installed too (https://modrinth.com/project/veinminer)
+[19:07:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5223ms or 104 ticks behind
+[19:08:02] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:13:25] [Server thread/INFO]: C_Nes[/172.20.0.1:38884] logged in with entity id 203 at (-551.3000000119209, 68.0, -221.0238054003307)
+[19:13:25] [Server thread/INFO]: C_Nes joined the game
+[19:13:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2045ms or 40 ticks behind
+[19:18:45] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[19:20:07] [Server thread/INFO]: C_Nes lost connection: กูจะรี server
+[19:20:07] [Server thread/INFO]: C_Nes left the game
+[19:20:07] [Server thread/INFO]: [Rcon: Kicked C_Nes: กูจะรี server]
+[19:20:07] [Server thread/WARN]: handleDisconnection() called twice
+[19:20:20] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[19:20:20] [Server thread/INFO]: [Rcon: Stopping the server]
+[19:20:20] [RCON Client /0:0:0:0:0:0:0:1 #3/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[19:20:20] [Server thread/INFO]: Stopping server
+[19:20:20] [Server thread/INFO]: Saving players
+[19:20:20] [Server thread/INFO]: Saving worlds
+[19:20:20] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2480 chunks to unload
+[19:20:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:20:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:20:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:20:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/kattersstructures:deep_blue
+[19:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage (deep_blue): All chunks are saved
+[19:20:21] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:20:21] [C2ME Storage #3/INFO]: Storage thread Thread[#49,C2ME Storage #3,5,main] stopped
+[19:20:21] [C2ME Storage #2/INFO]: Storage thread Thread[#48,C2ME Storage #2,5,main] stopped
+[19:20:21] [C2ME Storage #1/INFO]: Storage thread Thread[#47,C2ME Storage #1,5,main] stopped
+[19:20:21] [C2ME Storage #8/INFO]: Storage thread Thread[#55,C2ME Storage #8,5,main] stopped
+[19:20:21] [C2ME Storage #4/INFO]: Storage thread Thread[#50,C2ME Storage #4,5,main] stopped
+[19:20:21] [C2ME Storage #9/INFO]: Storage thread Thread[#56,C2ME Storage #9,5,main] stopped
+[19:20:21] [C2ME Storage #5/INFO]: Storage thread Thread[#51,C2ME Storage #5,5,main] stopped
+[19:20:21] [C2ME Storage #6/INFO]: Storage thread Thread[#52,C2ME Storage #6,5,main] stopped
+[19:20:21] [C2ME Storage #7/INFO]: Storage thread Thread[#54,C2ME Storage #7,5,main] stopped
+[19:20:21] [C2ME Storage #10/INFO]: Storage thread Thread[#57,C2ME Storage #10,5,main] stopped
+[19:20:21] [C2ME Storage #11/INFO]: Storage thread Thread[#58,C2ME Storage #11,5,main] stopped
+[19:20:21] [C2ME Storage #12/INFO]: Storage thread Thread[#59,C2ME Storage #12,5,main] stopped
+[19:20:21] [Server thread/INFO]: Thread RCON Listener stopped
+[19:20:21] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[19:20:21] [Server thread/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 stopped
